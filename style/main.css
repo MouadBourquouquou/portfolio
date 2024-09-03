@@ -635,6 +635,7 @@ figure::before{
 
 #contact p{
     color: var(--primary_color);
+    font-size: 20px;
 }
 
 /* start footer */
