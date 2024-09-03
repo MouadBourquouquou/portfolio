@@ -637,7 +637,7 @@ figure::before{
     color: var(--primary_color);
 }
 
-/* footer */
+/* start footer */
 footer{
     background-color: var(--primary_color);
     padding: 10px;
