@@ -22,7 +22,7 @@ let span3 = document.getElementsByTagName("span")[2];
 let header = document.getElementsByTagName("header")[0];
 let links = document.getElementsByClassName("links");
 if (document.body.clientWidth < 645) {
-        for (let i = 0; i < 4; i++) {
+        for (let i = 0; i < 5; i++) {
             links[i].addEventListener('click', function () {
             links[i].classList.toggle('clicked');
             span1.classList.remove('active-span1');
@@ -68,4 +68,8 @@ document.body.onscroll = function () {
         to_top.style.cssText = `top:-5%;
                         transition:2s`;
     }
+}
+
+window.onresize = function () {
+    window.location.reload();
 }
