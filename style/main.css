@@ -352,18 +352,18 @@ figure::before{
 }
 .three , .one2 , .two3{
     box-shadow: -14px -11px 0px 0 var(--impotant_color), 13px 11px 0 0 var(--other_color);
-    animation: opa3 6s ease infinite alternate;
-    -webkit-animation: opa3 6s ease infinite alternate;
+    animation: opa3 5s ease infinite alternate;
+    -webkit-animation: opa3 5s ease infinite alternate;
 }
 .two , .three2 , .one3{
     box-shadow: -14px -11px 0px 0 var(--other_color), 13px 11px 0 0 var(--seconde_color);
-    animation: opa2 6s ease infinite alternate;
-    -webkit-animation: opa2 6s ease infinite alternate;
+    animation: opa2 5s ease infinite alternate;
+    -webkit-animation: opa2 5s ease infinite alternate;
 }
 .one , .two2 , .three3{
     box-shadow: -14px -11px 0px 0 var(--seconde_color), 13px 11px 0 0 var(--impotant_color);
-    animation: opa1 6s ease infinite alternate;
-    -webkit-animation: opa1 6s ease infinite alternate;
+    animation: opa1 5s ease infinite alternate;
+    -webkit-animation: opa1 5s ease infinite alternate;
 }
 
 
@@ -559,7 +559,7 @@ figure::before{
 
 #projects .container .pro .content {
     overflow: hidden;
-    height: 300px;
+    height: 400px;
     border: 1px solid var(--primary_color);
     box-shadow: 0px 0px 15px 3px var(--primary_color);
 }
@@ -577,12 +577,16 @@ figure::before{
     background-image: url(../images/calculator_image.png);
     background-size: cover;
 }
+#projects .container .pro #content4 {
+    background-image: url(../images/img_portfolio.png);
+    background-size: cover;
+}
 
 #projects .container .pro .content .inside{
-    height: 255px;
+    height: 290px;
     text-align: center;
     position: relative;
-    top: 237px;
+    top: 338px;
     background-color: var(--seconde_color);
     transition: 1s;
     -webkit-transition: 1s;
@@ -592,7 +596,7 @@ figure::before{
 }
 
 #projects .container .pro .content:hover .inside{
-    top: 27px;
+    top: 90px;
 }
 
 #projects .container .pro .content .inside h3{
@@ -633,9 +637,11 @@ figure::before{
     color: var(--other_color);
 }
 
-#contact p{
+#contact p a{
     color: var(--primary_color);
     font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 /* start footer */
