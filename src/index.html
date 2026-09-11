@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Mouad Bourquouquou — Computer Engineering Student</title>
+    <base href="/" />
+
+    <!--
+      Theme bootstrap: applies the saved (or system) theme to <html> before
+      first paint so there's never a flash of the wrong theme. Also applies
+      the saved language to <html lang> before first paint.
+      English is the default when no preference has been persisted.
+      SSR-safe — the server renders a neutral document and this script runs
+      synchronously in the head on the client. The ThemeService and
+      LanguageService stay in sync after hydration.
+    -->
+    <script>
+      (function () {
+        try {
+          var stored = null;
+          try {
+            stored = localStorage.getItem('theme');
+          } catch (e) {}
+          var pref = stored === 'light' || stored === 'dark' ? stored : 'system';
+          var dark =
+            pref === 'dark' ||
+            (pref === 'system' && window.matchMedia('(prefers-color-scheme: dark)').matches);
+          var root = document.documentElement;
+          root.classList.toggle('dark', dark);
+          root.style.colorScheme = dark ? 'dark' : 'light';
+
+          var lang = null;
+          try {
+            lang = localStorage.getItem('lang');
+          } catch (e) {}
+          if (typeof lang !== 'string' || !/^(en|fr)$/.test(lang)) {
+            lang = 'en';
+          }
+          root.setAttribute('lang', lang);
+          root.setAttribute('dir', 'ltr');
+        } catch (e) {}
+      })();
+    </script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f7f5f2" />
+    <meta
+      name="description"
+      content="Computer engineering student and full-stack builder, creating products at the intersection of engineering, AI, and design."
+    />
+    <meta name="author" content="Mouad Bourquouquou" />
+<link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <app-root></app-root>
+  </body>
+</html>

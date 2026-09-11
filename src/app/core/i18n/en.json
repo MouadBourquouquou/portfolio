@@ -1,0 +1,227 @@
+{
+  "meta": {
+    "home": {
+      "title": "Mouad Bourquouquou — Computer Engineering Student",
+      "description": "Computer engineering student and full-stack builder, creating products at the intersection of engineering, AI, and design."
+    },
+    "about": {
+      "title": "About — Mouad Bourquouquou",
+      "description": "Engineer by training, builder by habit — the story behind the software work: computer science, product building, and applied AI."
+    },
+    "projects": {
+      "title": "Projects — Mouad Bourquouquou",
+      "description": "Selected work from a computer engineering student and full-stack builder: an AI computer-vision project for a hospitality client, MarocSphere — an AI-powered tourism platform — and other work across web platforms, backend, data, and algorithms."
+    },
+    "experience": {
+      "title": "Experience — Mouad Bourquouquou",
+      "description": "Experience and coordination — building MarocSphere, coordinating an AI computer-vision project for a hospitality client, and full-stack internship work across property management and university platforms."
+    },
+    "contact": {
+      "title": "Contact — Mouad Bourquouquou",
+      "description": "Have a project, an idea, or a PFE in mind? Contact me — open to final-year project opportunities and building interesting products."
+    },
+    "notFound": {
+      "title": "Project not found — Mouad Bourquouquou",
+      "description": "This project case study could not be found."
+    },
+    "blog": {
+      "title": "Blogs — Mouad Bourquouquou",
+      "description": "Practical blogs on software development, AI, data, and the tools I use while building projects — from Git workflows to Docker and algorithm complexity."
+    }
+  },
+  "accessibility": {
+    "skipToContent": "Skip to content",
+    "primaryNavigation": "Primary navigation",
+    "mobileNavigation": "Mobile navigation",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "backToHomepage": "Back to homepage",
+    "themeToDark": "Switch to dark mode",
+    "themeToLight": "Switch to light mode",
+    "languageSelector": "Language",
+    "languageEn": "Switch language to English",
+    "languageFr": "Switch language to French",
+    "filterProjects": "Filter projects by category"
+  },
+  "nav": {
+    "about": "About",
+    "projects": "Projects",
+    "experience": "Experience",
+    "contact": "Contact",
+    "blog": "Blogs"
+  },
+  "common": {
+    "caseStudy": "Case study",
+    "featured": "Featured project",
+    "leadership": "Leadership",
+    "month": "month",
+    "months": "months",
+    "present": "Present",
+    "videoPreview": "video preview",
+    "projectImage": "Project image",
+    "projectVideo": "Project video",
+    "downloadCv": "Download CV"
+  },
+  "hero": {
+    "eyebrow": "Open to PFE opportunities",
+    "titleLine1": "Engineering",
+    "titleLine2": "digital experiences.",
+    "fieldFullStack": "Full-Stack Engineering",
+    "fieldAiData": "AI & Data",
+    "fieldCloudDevOps": "Cloud & DevOps",
+    "intro": "I'm a computer engineering student and full-stack builder. I build products end to end — from idea to shipped system — with an engineer's rigor, applied AI where it earns its place, and a builder's curiosity.",
+    "exploreProjects": "Explore projects",
+    "getInTouch": "Get in touch",
+    "email": "Email"
+  },
+  "stats": {
+    "projects": "Projects",
+    "experiences": "Experiences",
+    "skills": "Skills"
+  },
+  "profile": {
+    "eyebrow": "Profile",
+    "tagline": "Engineer — Builder — Explorer",
+    "photoPlaceholder": "Portrait · add photo",
+    "role": "Computer Engineering Student · AI & Full-Stack Builder",
+    "technicalFocus": "Technical focus"
+  },
+  "work": {
+    "eyebrow": "Selected Work",
+    "title": "Selected projects, built to ship.",
+    "description": "A selection of work that shows how I think — from architecture and product decisions, to the craft of shipping.",
+    "viewAll": "View all projects"
+  },
+  "toolbox": {
+    "eyebrow": "Toolbox",
+    "title": "The tools I use to build and solve problems.",
+    "description": "A practical set of technologies I use across academic, professional, and personal projects.",
+    "categories": {
+      "languages": "Languages",
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "ai-data": "AI & Data",
+      "databases": "Databases",
+      "cloud-devops": "Cloud & DevOps",
+      "data-distributed": "Data & Distributed Systems"
+    }
+  },
+  "about": {
+    "eyebrow": "About",
+    "title": "Computer engineering student, focused on building useful software.",
+    "description": "I'm a 5th-year Computer Engineering student at ENSA Marrakech, interested in software development, AI and data. I enjoy turning ideas into practical applications, from full-stack platforms to computer-vision and data-driven projects.",
+    "fullStory": "Full story",
+    "beats": [
+      {
+        "number": "01",
+        "title": "Computer Science",
+        "text": "Strong foundation in programming, algorithms, databases, software design, and problem solving."
+      },
+      {
+        "number": "02",
+        "title": "Software Development",
+        "text": "Building web applications and APIs with technologies such as Angular, Spring Boot, Laravel, React, and Java/Python."
+      },
+      {
+        "number": "03",
+        "title": "AI & Data",
+        "text": "Working with machine learning, computer vision, data analysis, and practical AI projects using Python, OpenCV, YOLO, and data-processing tools."
+      },
+      {
+        "number": "04",
+        "title": "Real Projects",
+        "text": "Experience building projects in internships, university work, and professional environments, including tourism, computer vision, sustainability, and business applications."
+      }
+    ]
+  },
+  "experience": {
+    "eyebrow": "Experience & Leadership",
+    "title": "Where I've paid attention.",
+    "description": "Professional work uses a solid marker; leadership roles use an outline. Both are real, both are equal.",
+    "items": []
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "titleLine1": "Have a project, an idea, or a PFE in mind?",
+    "titleLine2": "Let's talk.",
+    "body": "I'm currently open to final-year project (PFE) opportunities and building interesting products."
+  },
+  "projectsPage": {
+    "eyebrow": "Projects",
+    "title": "Selected work.",
+    "intro": "Selected work across product engineering, AI, web platforms, data, and algorithms.",
+    "featured": "Featured Project",
+    "supportingProjects": "Other projects",
+    "all": "All",
+    "empty": "No projects in this category yet.",
+    "letsBuild": "Let's build",
+    "buildCtaTitle": "Have a product worth engineering?",
+    "buildCtaBody": "I'm always interested in well-scoped problems — an architecture question, a product in the making, or an AI integration that needs to be shipped properly.",
+    "startConversation": "Start a conversation",
+    "readTheStory": "Read the story",
+    "readCaseStudy": "View",
+    "nextProject": "Next project",
+    "categories": {
+      "product-development": "Product Development",
+      "ai-computer-vision": "AI / Computer Vision",
+      "full-stack-development": "Full-Stack Development",
+      "web-platform": "Web / Platform",
+      "backend-full-stack": "Backend / Full-Stack",
+      "data-big-data": "Data / Big Data",
+      "algorithms-optimization": "Algorithms / Optimization"
+    }
+  },
+  "caseStudy": {
+    "projectsNavigation": "Projects navigation",
+    "allProjects": "All projects",
+    "backToAll": "Back to all projects",
+    "overview": "Overview",
+    "whatItIs": "What it is",
+    "context": "Context",
+    "theProblem": "The problem",
+    "role": "Role",
+    "myContribution": "My contribution",
+    "decisions": "Decisions",
+    "engineeringDecisions": "Engineering decisions",
+    "outcome": "Outcome",
+    "result": "Result",
+    "reflection": "Reflection",
+    "learnings": "Learnings",
+    "media": "Media",
+    "screensAndVideo": "Screens",
+    "year": "Year",
+    "category": "Category",
+    "technologies": "Technologies"
+  },
+  "blogPage": {
+    "eyebrow": "Blogs",
+    "title": "Practical blogs.",
+    "intro": "Practical blogs on software development, AI, data, and the tools I use while building projects.",
+    "minRead": "min read",
+    "read": "Read",
+    "relatedArticles": "Related blogs",
+    "nextArticle": "Next note",
+    "backToBlog": "Back to all blogs",
+    "notFoundTitle": "Note not found",
+    "notFoundBody": "This note doesn't exist — it may have moved.",
+    "notFoundBack": "Back to all blogs",
+    "categories": {
+      "git": "Git",
+      "github": "Git & GitHub",
+      "docker": "Docker",
+      "algorithms": "Algorithms"
+    }
+  },
+  "media": {
+    "mediaInPreparation": "Media in preparation",
+    "placeholderBody": "Screenshots or a walkthrough video will live here — organized by label when needed. The section is designed to accept images and videos with captions without any layout changes."
+  },
+  "notFound": {
+    "eyebrow": "Project",
+    "title": "Project not found",
+    "body": "This project's case study doesn't exist yet.",
+    "back": "Back to all projects"
+  },
+  "projectsData": {},
+  "articlesData": {}
+}

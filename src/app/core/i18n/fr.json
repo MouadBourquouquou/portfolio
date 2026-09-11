@@ -1,0 +1,1079 @@
+{
+  "meta": {
+    "home": {
+      "title": "Mouad Bourquouquou — Étudiant en génie informatique",
+      "description": "Étudiant en génie informatique et développeur full-stack, créant des produits à l'intersection de l'ingénierie, de l'IA et du design."
+    },
+    "about": {
+      "title": "À propos — Mouad Bourquouquou",
+      "description": "Ingénieur de formation, builder par habitude — l'histoire derrière le travail logiciel : informatique, construction de produits et IA appliquée."
+    },
+    "projects": {
+      "title": "Projets — Mouad Bourquouquou",
+      "description": "Travaux sélectionnés d'un étudiant en génie informatique et builder full-stack : un projet de vision par ordinateur pour un client de l'hospitalité, MarocSphere — une plateforme touristique propulsée par l'IA — et d'autres travaux en plateformes web, backend, données et algorithmes."
+    },
+    "experience": {
+      "title": "Expérience — Mouad Bourquouquou",
+      "description": "Expérience et coordination — construire MarocSphere, coordonner un projet de vision par ordinateur pour un client de l'hospitalité, et des stages full-stack en gestion immobilière et plateformes universitaires."
+    },
+    "contact": {
+      "title": "Contact — Mouad Bourquouquou",
+      "description": "Un projet, une idée, ou un PFE en tête ? Contactez-moi — ouvert aux opportunités de projet de fin d'études et à la construction de produits intéressants."
+    },
+    "notFound": {
+      "title": "Projet introuvable — Mouad Bourquouquou",
+      "description": "L'étude de cas de ce projet est introuvable."
+    },
+    "blog": {
+      "title": "Blogs — Mouad Bourquouquou",
+      "description": "Des blogs pratiques sur le développement logiciel, l'IA, les données et les outils que j'utilise pour construire des projets — des workflows Git à Docker et à la complexité algorithmique."
+    }
+  },
+  "accessibility": {
+    "skipToContent": "Aller au contenu",
+    "primaryNavigation": "Navigation principale",
+    "mobileNavigation": "Navigation mobile",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu",
+    "backToHomepage": "Retour à l'accueil",
+    "themeToDark": "Passer en mode sombre",
+    "themeToLight": "Passer en mode clair",
+    "languageSelector": "Langue",
+    "languageEn": "Passer la langue en anglais",
+    "languageFr": "Passer la langue en français",
+    "filterProjects": "Filtrer les projets par catégorie"
+  },
+  "nav": {
+    "about": "À propos",
+    "projects": "Projets",
+    "experience": "Expérience",
+    "contact": "Contact",
+    "blog": "Blogs"
+  },
+  "common": {
+    "caseStudy": "Étude de cas",
+    "featured": "Projet vedette",
+    "leadership": "Leadership",
+    "month": "mois",
+    "months": "mois",
+    "present": "Présent",
+    "videoPreview": "aperçu vidéo",
+    "projectImage": "Image du projet",
+    "projectVideo": "Vidéo du projet",
+    "downloadCv": "Télécharger le CV"
+  },
+  "hero": {
+    "eyebrow": "Ouvert aux opportunités de PFE",
+    "titleLine1": "Ingénierie",
+    "titleLine2": "d'expériences digitales.",
+    "fieldFullStack": "Ingénierie Full-Stack",
+    "fieldAiData": "IA & Données",
+    "fieldCloudDevOps": "Cloud & DevOps",
+    "intro": "Je suis étudiant en génie informatique et développeur full-stack. Je construis des produits de bout en bout — de l'idée au système livré — avec la rigueur d'un ingénieur, une IA appliquée là où elle a sa place, et la curiosité de celui qui construit.",
+    "exploreProjects": "Découvrir les projets",
+    "getInTouch": "Me contacter",
+    "email": "E-mail"
+  },
+  "stats": {
+    "projects": "Projets",
+    "experiences": "Expériences",
+    "skills": "Compétences"
+  },
+  "profile": {
+    "eyebrow": "Profil",
+    "tagline": "Ingénieur — Constructeur — Explorateur",
+    "photoPlaceholder": "Portrait · ajouter une photo",
+    "role": "Étudiant en génie informatique · IA & Full-Stack",
+    "technicalFocus": "Focus technique"
+  },
+  "work": {
+    "eyebrow": "Travaux sélectionnés",
+    "title": "Des projets sélectionnés, conçus pour être livrés.",
+    "description": "Une sélection de travaux qui montre comment je réfléchis — de l'architecture et des décisions produit, jusqu'au savoir-faire de la livraison.",
+    "viewAll": "Voir tous les projets"
+  },
+  "toolbox": {
+    "eyebrow": "Boîte à outils",
+    "title": "Les outils que j'utilise pour construire et résoudre des problèmes.",
+    "description": "Un ensemble pratique de technologies que j'utilise dans des projets académiques, professionnels et personnels.",
+    "categories": {
+      "languages": "Langages",
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "ai-data": "IA & Données",
+      "databases": "Bases de données",
+      "cloud-devops": "Cloud & DevOps",
+      "data-distributed": "Données & Systèmes distribués"
+    }
+  },
+  "about": {
+    "eyebrow": "À propos",
+    "title": "Étudiant en génie informatique, concentré sur la construction de logiciels utiles.",
+    "description": "Je suis étudiant en 5e année de génie informatique à l'ENSA Marrakech, intéressé par le développement logiciel, l'IA et la donnée. J'aime transformer des idées en applications concrètes — des plateformes full-stack aux projets de vision par ordinateur et de data.",
+    "fullStory": "Toute l'histoire",
+    "beats": [
+      {
+        "number": "01",
+        "title": "Informatique",
+        "text": "De solides fondations en programmation, algorithmes, bases de données, conception logicielle et résolution de problèmes."
+      },
+      {
+        "number": "02",
+        "title": "Développement logiciel",
+        "text": "Construire des applications web et des API avec des technologies comme Angular, Spring Boot, Laravel, React et Java/Python."
+      },
+      {
+        "number": "03",
+        "title": "IA & Données",
+        "text": "Travailler sur le machine learning, la vision par ordinateur, l'analyse des données et des projets IA concrets avec Python, OpenCV, YOLO et des outils de traitement de données."
+      },
+      {
+        "number": "04",
+        "title": "Projets réels",
+        "text": "Une expérience de réalisation de projets en stage, à l'université et en environnement professionnel — tourisme, vision par ordinateur, développement durable et applications métier."
+      }
+    ]
+  },
+  "experience": {
+    "eyebrow": "Expérience & Leadership",
+    "title": "Là où j'ai prêté attention.",
+    "description": "Les postes professionnels utilisent un marqueur plein ; les rôles de leadership un marqueur vide. Les deux sont réels, les deux se valent.",
+    "items": [
+      {
+        "role": "Développeur Full-Stack · Coordinateur d'équipe",
+        "organization": "MarocSphere",
+        "summary": "Stage de fin d'études (PFA) construisant une plateforme touristique intelligente qui accompagne les voyageurs de bout en bout — de la génération d'itinéraires assistée par IA à la découverte d'artisans et de services locaux. Coordination d'une équipe de quatre, contribution au frontend et au backend, participation à la conception de la base de données, et soutien au déploiement et à la vérification de la plateforme pour livrer un écosystème touristique multi-services fiable."
+      },
+      {
+        "role": "Stagiaire Maintenance Web & Plateformes",
+        "organization": "Université Cadi Ayyad",
+        "summary": "Maintenance et amélioration de plateformes numériques universitaires axées sur la durabilité — mise à jour autonome d'un site universitaire, collaboration sur une plateforme dédiée au développement durable, et contribution à l'administration, au contenu, au déploiement et à la gestion des systèmes pour assurer la continuité de services numériques portés par des initiatives durables et sociales."
+      },
+      {
+        "role": "Coordinateur de projet IA",
+        "organization": "EMJE",
+        "summary": "Coordination d'une équipe de quatre sur un projet de vision par ordinateur pour un client du secteur de l'hospitalité, en accompagnant le flux de travail — de la préparation et l'annotation des données à l'entraînement et l'évaluation des modèles, jusqu'au déploiement — tout en contribuant au nettoyage des données, à l'annotation et aux tests de déploiement, pour livrer une solution déployable conçue autour d'exigences réelles de surveillance et de sécurité opérationnelles."
+      },
+      {
+        "role": "Développeur Full-Stack Stagiaire",
+        "organization": "EYSI",
+        "summary": "Au sein d'une équipe de deux, participation au développement d'une plateforme de gestion immobilière pour les opérations de syndic, principalement sur le backend, en prenant part à l'implémentation et à l'intégration des fonctionnalités pour livrer un produit fonctionnel, prêt pour une utilisation opérationnelle."
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "titleLine1": "Un projet, une idée, ou un PFE en tête ?",
+    "titleLine2": "Parlons-en.",
+    "body": "Je suis actuellement ouvert aux opportunités de projet de fin d'études (PFE) et à la construction de produits intéressants."
+  },
+  "projectsPage": {
+    "eyebrow": "Projets",
+    "title": "Travaux sélectionnés.",
+    "intro": "Des travaux sélectionnés en ingénierie produit, IA, plateformes web, données et algorithmes.",
+    "featured": "Projet phare",
+    "supportingProjects": "Autres projets",
+    "all": "Tous",
+    "empty": "Aucun projet dans cette catégorie pour le moment.",
+    "letsBuild": "Construisons",
+    "buildCtaTitle": "Un produit qui mérite d'être conçu ?",
+    "buildCtaBody": "Je m'intéresse toujours aux problèmes bien cadrés — une question d'architecture, un produit en cours de conception, ou une intégration IA qui doit être livrée proprement.",
+    "startConversation": "Commencer une conversation",
+    "readTheStory": "Lire l'histoire",
+    "readCaseStudy": "Voir",
+    "nextProject": "Projet suivant",
+    "categories": {
+      "product-development": "Développement Produit",
+      "ai-computer-vision": "IA / Vision par ordinateur",
+      "full-stack-development": "Développement Full-Stack",
+      "web-platform": "Web / Plateforme",
+      "backend-full-stack": "Backend / Full-Stack",
+      "data-big-data": "Données / Big Data",
+      "algorithms-optimization": "Algorithmes / Optimisation"
+    }
+  },
+  "caseStudy": {
+    "projectsNavigation": "Navigation des projets",
+    "allProjects": "Tous les projets",
+    "backToAll": "Retour à tous les projets",
+    "overview": "Vue d'ensemble",
+    "whatItIs": "Ce que c'est",
+    "context": "Contexte",
+    "theProblem": "Le problème",
+    "role": "Rôle",
+    "myContribution": "Ma contribution",
+    "decisions": "Décisions",
+    "engineeringDecisions": "Décisions d'ingénierie",
+    "outcome": "Résultat",
+    "result": "Résultat",
+    "reflection": "Réflexion",
+    "learnings": "Apprentissages",
+    "media": "Médias",
+    "screensAndVideo": "Captures",
+    "year": "Année",
+    "category": "Catégorie",
+    "technologies": "Technologies"
+  },
+  "blogPage": {
+    "eyebrow": "Blogs",
+    "title": "Des blogs pratiques.",
+    "intro": "Des blogs pratiques sur le développement logiciel, l'IA, les données et les outils que j'utilise pour construire des projets.",
+    "minRead": "min de lecture",
+    "read": "Lire",
+    "relatedArticles": "Blogs connexes",
+    "nextArticle": "Note suivante",
+    "backToBlog": "Retour à tous les blogs",
+    "notFoundTitle": "Note introuvable",
+    "notFoundBody": "Cette note n'existe pas — elle a peut-être été déplacée.",
+    "notFoundBack": "Retour à tous les blogs",
+    "categories": {
+      "git": "Git",
+      "github": "Git & GitHub",
+      "docker": "Docker",
+      "algorithms": "Algorithmes"
+    }
+  },
+  "media": {
+    "mediaInPreparation": "Médias en préparation",
+    "placeholderBody": "Des captures d'écran ou une vidéo de démonstration prendront place ici — organisées par label si besoin. La section est conçue pour accepter des images et des vidéos avec légendes sans aucun changement de mise en page."
+  },
+  "notFound": {
+    "eyebrow": "Projet",
+    "title": "Projet introuvable",
+    "body": "L'étude de cas de ce projet n'existe pas encore.",
+    "back": "Retour à tous les projets"
+  },
+  "projectsData": {
+    "marocsphere": {
+      "title": "MarocSphere",
+      "summary": "Une plateforme de bout en bout combinant Angular, Spring Boot et l'IA appliquée — conçue de l'architecture jusqu'à l'interface.",
+      "description": "MarocSphere est une plateforme touristique propulsée par l'IA, centrée sur le Maroc. Elle réunit la génération d'itinéraires personnalisés, des cartes et la découverte des services touristiques locaux dans un seul produit — un frontend Angular, une API Spring Boot, une persistance PostgreSQL et une couche IA intégrée au parcours d'itinéraire.",
+      "role": "Développeur Full-Stack · Coordinateur d'équipe",
+      "problem": "Préparer un voyage au Maroc revient le plus souvent à assembler des sources fragmentées — guides génériques, annuaires éparpillés, outils cartographiques et sites de réservation — puis à monter un itinéraire à la main. Le résultat est une boucle de planification lente, avec très peu de personnalisation. Le brief était de réunir la génération d'itinéraires, la découverte des services locaux et les cartes dans un seul parcours assisté par l'IA.",
+      "problemPoints": [
+        "La planification des itinéraires était manuelle : les voyageurs assemblaient leurs parcours à partir de sources sans lien entre elles.",
+        "Les services touristiques locaux étaient répartis sur de nombreux canaux, sans point de découverte unique.",
+        "Le produit devait justifier une couche IA sans en faire un gadget."
+      ],
+      "contribution": "J'ai été lead plateforme de MarocSphere : je coordonnais l'équipe et définissais la direction technique, avec un travail concret sur le frontend Angular et le backend Spring Boot, ainsi que les tests et le déploiement.",
+      "contributionPoints": [
+        "J'ai défini la direction technique : un frontend Angular, une API Spring Boot, une persistance PostgreSQL et une couche IA intégrée.",
+        "J'ai coordonné l'équipe autour d'un backlog partagé, de contrats d'API et d'un rythme de livraison.",
+        "J'ai contribué au développement et aux tests du backend, y compris l'intégration IA qui alimente la génération d'itinéraires.",
+        "J'ai géré le déploiement — packaging de la plateforme avec Docker et livraison via Cloudflare."
+      ],
+      "decisions": [
+        {
+          "title": "Angular pour la surface produit",
+          "body": "Le parcours touristique est riche en contenu — itinéraires, cartes, annuaires — et bénéficie d'un frontend typé et basé sur des composants. Angular nous a apporté un data binding structuré et une structure de projet prévisible, capable d'évoluer entre plusieurs contributeurs sans se disperser."
+        },
+        {
+          "title": "Spring Boot comme colonne vertébrale de l'API",
+          "body": "La planification touristique implique des parcours métier distincts — itinéraires, cartes, annuaires, profils — et les conventions en couches de Spring Boot (contrôleurs, services, repositories) ainsi que le typage statique ont gardé ces frontières revuables et explicites entre plusieurs contributeurs."
+        },
+        {
+          "title": "PostgreSQL pour les données métier structurées",
+          "body": "Les itinéraires, les profils utilisateurs et les services touristiques sont de nature relationnelle. PostgreSQL nous a apporté l'intégrité référentielle, les transactions et des migrations stables — le genre de garanties sur lesquelles une plateforme multifonctions doit s'appuyer plutôt que de les ajouter plus tard."
+        },
+        {
+          "title": "IA intégrée au parcours d'itinéraire",
+          "body": "La couche IA génère des itinéraires personnalisés à partir des préférences des voyageurs et du contenu touristique marocain. La valeur a été placée dans le parcours produit — un planificateur qui s'adapte à ce que les gens veulent réellement faire — plutôt qu'une IA ajoutée comme démo séparée."
+        },
+        {
+          "title": "Docker pour la cohérence au sein de l'équipe",
+          "body": "Avec plusieurs personnes travaillant sur la plateforme, la dérive des environnements était le principal risque du « ça marche chez moi ». Conteneuriser le backend, la base de données et les services a fait tourner à tout le monde la même stack, et la plateforme a pu être transmise et déployée de manière reproductible."
+        },
+        {
+          "title": "Cloudflare pour la livraison",
+          "body": "Le déploiement a été allégé en passant par la couche edge gérée de Cloudflare, qui assurait l'exposition publique et la livraison sans que nous opérions notre propre infrastructure. Pour une petite équipe, réduire la surface d'exploitation était une décision d'architecture autant qu'opérationnelle."
+        },
+        {
+          "title": "k6 et Postman pour la vérification",
+          "body": "La justesse et la charge ont été traitées comme partie de l'ingénierie, pas comme une réflexion après coup : les collections Postman validaient le comportement de l'API contre des contrats convenus, et k6 éprouvait les caractéristiques de charge avant la sortie — en intégrant la confiance dans la boucle de livraison."
+        },
+        {
+          "title": "Workflow Git/GitHub",
+          "body": "Une plateforme multi-personnes ne reste cohérente que si son historique commun l'est. Le travail par branches, les pull requests et un dépôt centralisé sur GitHub nous ont donné des points de revue et une trace fiable de ce qui a changé et pourquoi."
+        }
+      ],
+      "result": "Le projet a produit une plateforme touristique intégrée et fonctionnelle : une interface Angular servie par une API Spring Boot avec persistance PostgreSQL et une couche IA pour la génération d'itinéraires, empaquetée avec Docker et livrée via Cloudflare. Livrée comme un effort d'équipe coordonné.",
+      "learnings": [
+        "Définir les contrats d'API avant les fonctionnalités est ce qui garde l'intégration bon marché en équipe.",
+        "Tester à deux niveaux — Postman pour la justesse, k6 pour la charge — a révélé des problèmes qu'une suite unitaire seule aurait manqués.",
+        "Conteneuriser tôt a éliminé la dérive d'environnements qui brûle en général les heures les plus coûteuses d'une équipe.",
+        "Une fonctionnalité IA n'est utile qu'à la hauteur de la structure de contenu qui la soutient ; façonner le modèle de données comptait autant que le modèle lui-même.",
+        "Les choix de déploiement comme Docker et Cloudflare sont des décisions produit — ils fixent le rythme auquel l'équipe peut livrer."
+      ]
+    },
+    "syndic": {
+      "title": "Plateforme de gestion de syndic",
+      "summary": "Une plateforme de gestion immobilière pour les opérations de syndic, construite en binôme durant un stage chez EYSI.",
+      "description": "Une plateforme web pour appuyer l'administration au quotidien des bâtiments résidentiels partagés pour les opérations de syndic. Construite en binôme, elle combinait un backend Laravel et un frontend React sur MySQL, versionnés via Git et GitHub, avec pour objectif de fournir aux opérations de syndic un outil fonctionnel unique à la fin du stage.",
+      "role": "Développeur Full-Stack Stagiaire",
+      "problem": "Les opérations de syndic reposent sur des registres dispersés et un suivi manuel. Le brief du stage était de construire une plateforme capable d'appuyer ces opérations, ce qui impliquait de couvrir de vraies fonctionnalités — et pas un simple prototype — dans une fenêtre de stage courte.",
+      "problemPoints": [
+        "Construire un produit fonctionnel en un stage court imposait de prioriser les fonctionnalités essentielles à la profondeur.",
+        "Travailler en binôme sur les deux codebases exigeait un flux de travail partagé et discipliné."
+      ],
+      "contribution": "Au sein d'une équipe de deux, participation au développement de la plateforme, principalement sur le backend, en prenant part à l'implémentation et à l'intégration des fonctionnalités pour livrer un produit prêt pour une utilisation opérationnelle dans le temps du stage.",
+      "contributionPoints": [
+        "Contribution principalement sur le backend Laravel, appuyé par une base de données MySQL.",
+        "Participation à l'implémentation et à l'intégration des fonctionnalités sur toute la pile.",
+        "Versionnage et revue du travail via Git et GitHub."
+      ],
+      "decisions": [
+        {
+          "title": "Laravel pour le backend",
+          "body": "Une plateforme de gestion immobilière s'articule autour d'entités métier réelles — bâtiments, unités, parties et registres concernés. Laravel a fourni une base MVC structurée avec un ORM et un routage clair qui ont gardé le périmètre gérable pour une petite équipe dans un temps court."
+        },
+        {
+          "title": "React pour l'interface",
+          "body": "La surface d'exploitation bénéficie d'un frontend à base de composants qui reste cohérent à mesure que l'équipe ajoute des écrans. React a offert un moyen simple de partager les éléments d'interface sur toute la plateforme."
+        },
+        {
+          "title": "Git et GitHub pour un flux partagé",
+          "body": "Deux personnes sur une même codebase ont besoin de points de revue et d'un enregistrement fiable des changements. Le travail par branches sur GitHub a gardé l'intégration bon marché et l'historique partagé lisible."
+        }
+      ],
+      "result": "Livraison d'une plateforme fonctionnelle de gestion immobilière pour les opérations de syndic, construite en binôme et prête pour une utilisation opérationnelle dans le temps du stage.",
+      "learnings": [
+        "Un stage court récompense un périmètre serré : la compétence utile consiste à choisir les fonctionnalités qui soutiennent réellement l'exploitation.",
+        "En binôme, la discipline de branche et un historique partagé propre sont ce qui garde l'intégration bon marché."
+      ]
+    },
+    "uca-sustainability": {
+      "title": "Plateforme Durabilité UCA",
+      "summary": "Maintenance et amélioration de plateformes web universitaires axées sur la durabilité, durant un stage à l'Université Cadi Ayyad.",
+      "description": "Un stage à l'Université Cadi Ayyad consacré au maintien en bonne santé de plateformes numériques orientées durabilité. Le travail combinait des mises à jour autonomes d'un site universitaire, la collaboration sur une plateforme dédiée au développement durable, et un soutien en administration, contenu, déploiement et gestion des systèmes.",
+      "role": "Stagiaire Maintenance Web & Plateformes",
+      "problem": "Les plateformes universitaires liées à la durabilité et aux initiatives sociales demandent un entretien continu — mises à jour de contenu, administration, déploiement et gestion des serveurs. Le stage visait à garder ces services opérationnels et à les améliorer là où cela comptait.",
+      "problemPoints": [
+        "Les plateformes en production exigent un travail régulier de contenu, d'administration et de maintenance pour rester fiables.",
+        "Le déploiement et l'administration d'hébergement demandent de l'attention pour que les services restent disponibles."
+      ],
+      "contribution": "Maintenance et amélioration de plateformes numériques universitaires axées sur la durabilité — mise à jour autonome d'un site universitaire, collaboration sur une plateforme dédiée au développement durable, et soutien en administration, contenu, déploiement et gestion des systèmes.",
+      "contributionPoints": [
+        "Mise à jour autonome d'un site universitaire.",
+        "Collaboration sur une plateforme web dédiée à la durabilité.",
+        "Soutien en administration, contenu, déploiement et gestion des systèmes."
+      ],
+      "decisions": [
+        {
+          "title": "WordPress pour le site universitaire",
+          "body": "Pour un site universitaire porté par le contenu, WordPress a fourni une base de publication maintenable et largement comprise, simplifiant le travail de contenu et de mise à jour."
+        },
+        {
+          "title": "Next.js pour la plateforme durabilité",
+          "body": "La plateforme dédiée à la durabilité bénéficie d'un framework React moderne avec un SSR et des options de génération statique solides pour des pages performantes et partageables."
+        },
+        {
+          "title": "Virtualmin pour l'administration d'hébergement",
+          "body": "Gérer le volet hébergement via Virtualmin a rendu l'administration des domaines, sauvegardes et serveurs explicite et reproductible pour les équipes responsables."
+        }
+      ],
+      "result": "Contribution au maintien en fonctionnement des services numériques universitaires axés sur la durabilité — un site universitaire mis à jour de façon autonome et une plateforme durabilité maintenue en collaboration.",
+      "learnings": [
+        "L'essentiel du travail sur des plateformes en production est un entretien discipliné — contenu, déploiement et administration constituent la vraie charge de travail.",
+        "Choisir des outils pour leur maintenabilité compte autant que les choisir pour leurs fonctionnalités."
+      ]
+    },
+    "ai-surveillance": {
+      "title": "Système de surveillance IA",
+      "summary": "Coordination d'une équipe IA/vision par ordinateur de quatre personnes, en collaboration avec une startup, pour construire un système de détection de surveillance de café, des données labellisées jusqu'à l'inférence YOLO fonctionnelle.",
+      "description": "En tant que responsable vision par ordinateur/IA d'une équipe de quatre, et en collaboration avec une startup, j'ai contribué à construire un système de suivi par vision par ordinateur pour un cas d'usage de surveillance de café. Le projet a parcouru tout le chemin de l'IA appliquée — collecte et labellisation des données, entraînement d'un détecteur avec YOLO, et branchement de l'inférence dans un contexte de surveillance réel — en mettant l'accent sur la transition de séquences brutes à des détections fonctionnelles, en équipe cohérente.",
+      "role": "Coordinateur de projet IA · Ingénieur Vision par Ordinateur",
+      "problem": "Les séquences de surveillance réelles sont bruitées — éclairage, angles et occultations varient constamment — et la qualité de la détection est finalement plafonnée par les données labellisées, pas par le choix du modèle. Travailler avec une startup nous a donné un cas concret de surveillance de café à viser. En équipe de quatre, nous devions en plus organiser l'annotation, l'entraînement et l'intégration assez serrés pour que chacun puisse contribuer sans dégrader les données.",
+      "problemPoints": [
+        "Les séquences de surveillance de café sont bruitées et variées : la gestion de l'environnement gouverne la qualité réelle.",
+        "La qualité de détection est plafonnée par la qualité des données — la discipline de labellisation était le véritable travail d'ingénierie.",
+        "Une équipe de quatre avait besoin d'un workflow partagé pour labelliser, entraîner et partager les résultats."
+      ],
+      "contribution": "J'ai dirigé l'équipe et possédé le volet IA/vision par ordinateur. J'ai coordonné les quatre membres autour des données, de l'entraînement et de l'intégration, décidé de la pipeline de données et conduit la détection des jeux de données curatés jusqu'à l'inférence YOLO fonctionnelle pour le cas d'usage de surveillance de café de la startup.",
+      "contributionPoints": [
+        "Direction d'une équipe de quatre et coordination des données, de l'entraînement et de l'intégration de bout en bout.",
+        "Collaboration avec une startup autour d'un cas réel de surveillance de café.",
+        "Pilotage de la curation et de la labellisation des données via Roboflow ; données publiques d'entraînement sourcées via Kaggle.",
+        "Entraînement et itérations conduits sur Google Colab."
+      ],
+      "decisions": [
+        {
+          "title": "YOLO pour la détection temps réel",
+          "body": "Un scénario de surveillance exige des détections qui suivent la séquence plutôt que de la devancer. Nous avons utilisé YOLO — un détecteur à une étape assez rapide pour l'inférence en direct — et affiné depuis de solides poids pré-entraînés plutôt que d'entraîner de zéro."
+        },
+        {
+          "title": "Roboflow comme couche de données",
+          "body": "Labelliser, versionner et exporter des jeux de données à la main sur toute une équipe est une recette pour l'incohérence. Roboflow nous a fourni une pipeline d'annotation et d'export partagée pour que les quatre personnes itèrent sur les mêmes versions de données."
+        },
+        {
+          "title": "Kaggle pour les données d'entraînement",
+          "body": "Un projet de surveillance a besoin d'assez d'exemples variés pour être utile. Les jeux de données publics de Kaggle nous ont permis d'amorcer la base d'entraînement avant d'investir dans la labellisation sur mesure."
+        },
+        {
+          "title": "Google Colab pour l'entraînement",
+          "body": "Le temps GPU venait à la demande dans Colab, si bien que la boucle entière — entraîner, valider, exporter les poids — tournait dans des notebooks sans que nous provisionnions de matériel. Itérer devenait rapide quand le vrai goulot était l'expérimentation de données."
+        }
+      ],
+      "result": "Livraison d'une pipeline de détection fonctionnelle pour la collaboration avec la startup : un détecteur YOLO entraîné sur des données curatées, produisant de l'inférence pour le scénario de surveillance de café. Un projet d'équipe fonctionnel de bout en bout — séquences brutes en entrée, détections en sortie.",
+      "learnings": [
+        "Une grande partie d'un projet de vision tient à la qualité des données et à la discipline de labellisation ; le choix du modèle est la partie comparativement facile.",
+        "Diriger une petite équipe revenait à posséder les contrats partagés — les labels, les exports et les versions sur lesquels tout le monde s'appuyait.",
+        "La collaboration avec une startup forçait des arbitrages entre un problème IA intéressant et un résultat de surveillance utilisable.",
+        "L'entraînement piloté par notebooks sur Colab est rapide, mais c'est le versionnage explicite des jeux de données et des poids qui garde une équipe alignée."
+      ]
+    },
+    "e-banking": {
+      "title": "Plateforme de banque en ligne",
+      "summary": "Une plateforme full-stack de transfert d'argent numérique, créée pour pratiquer un développement logiciel sûr et orienté production.",
+      "description": "Un projet académique qui a implémenté une plateforme de transfert d'argent numérique de bout en bout — un backend Spring Boot avec un client Angular. L'accent était mis sur les préoccupations bancaires centrales et la discipline d'un développement backend structuré : des frontières métier claires, des endpoints cohérents et une collaboration propre autour d'un dépôt partagé.",
+      "role": "Développeur Backend",
+      "problem": "Un logiciel de transfert d'argent est impitoyable : autorisation, validation et auditabilité comptent dans chaque interaction. Le brief académique était de construire une plateforme complète de transfert numérique, ce qui signifiait exercer toute la stack tout en gardant le backend — là où vivent les vrais risques — explicite et correct.",
+      "problemPoints": [
+        "Les flux bancaires exigent une validation stricte et une autorisation claire à chaque frontière.",
+        "Une plateforme couvrant toute la stack exige que le backend et le client s'accordent sur les mêmes contrats de données.",
+        "Plusieurs contributeurs dans un même dépôt faisaient de la discipline de versionnage une exigence dure."
+      ],
+      "contribution": "Mon travail se concentrait sur le backend et la collaboration autour du dépôt partagé : gestion des utilisateurs et des tarifs sur Spring Boot, en soutien au client Angular et au workflow Git/GitHub de l'équipe.",
+      "contributionPoints": [
+        "Développement backend sur Spring Boot — gestion des utilisateurs et des tarifs.",
+        "Modélisation des entités métier et des endpoints consommés par le client Angular.",
+        "Collaboration via Git/GitHub avec des branches cohérentes et un historique partagé."
+      ],
+      "decisions": [
+        {
+          "title": "Spring Boot pour le backend",
+          "body": "La logique bancaire doit être revuable et prévisible. Les conventions en couches de Spring Boot — contrôleurs, services, persistance — et le typage statique ont rendu le transfert des responsabilités explicite, ce qui compte quand chaque opération est financièrement sensible."
+        },
+        {
+          "title": "Angular pour le client",
+          "body": "Le frontend devait refléter le modèle de données structuré du backend. Les composants et services typés d'Angular ont gardé le client aligné sur l'API au lieu de dériver vers un traitement de données ad hoc."
+        }
+      ],
+      "result": "Production d'une plateforme académique fonctionnelle : gestion des utilisateurs et des tarifs sur un backend Spring Boot avec un client Angular — un système complet de transfert d'argent construit comme exercice de développement structuré et orienté production.",
+      "learnings": [
+        "Les domaines bancaires récompensent des modèles de données explicites — comprendre les entités (utilisateurs, tarifs, comptes) avant d'écrire un seul endpoint.",
+        "Une couche de services Spring Boot bien structurée rend le travail sur les endpoints prévisible et facile à tester.",
+        "Travailler sur un dépôt partagé fait de la discipline de branche une compétence de collaboration, pas une formalité."
+      ]
+    },
+    "recommendation-system": {
+      "title": "Système de recommandation",
+      "summary": "Un système de recommandation à grande échelle explorant le traitement distribué en streaming et par lots pour la personnalisation.",
+      "description": "Une exploration d'ingénierie de la recommandation à l'échelle : traiter de grands volumes de données comportementales avec des moteurs distribués — Apache Spark pour le batch, Apache Flink pour le streaming — et MongoDB pour le stockage flexible des données traversant la pipeline.",
+      "role": "Ingénieur Données",
+      "problem": "La qualité de la recommandation dépend du traitement bon marché et fiable de grands ensembles continus de données comportementales. Le projet a étudié comment des moteurs batch et streaming peuvent être combinés pour façonner une pipeline de recommandation à l'échelle — en se concentrant sur l'architecture et la faisabilité plutôt que sur des métriques benchmarkées.",
+      "problemPoints": [
+        "Les données comportementales arrivent en continu et en grands volumes ; le traitement doit donc être à la fois par lots et en streaming.",
+        "Le stockage doit accepter des données d'événements variées et à haut volume sans schéma rigide.",
+        "Le choix d'architecture (stream vs batch) doit être fait avant d'écrire la logique de la pipeline."
+      ],
+      "contribution": "J'ai travaillé sur la couche de traitement — construisant les pipelines Spark et Flink qui transforment les données comportementales et alimentent un stockage MongoDB pour les recommandations.",
+      "contributionPoints": [
+        "Construction de la pipeline batch avec Apache Spark.",
+        "Construction de la pipeline streaming avec Apache Flink.",
+        "Conception du stockage MongoDB pour les données à haut volume aux bornes de la pipeline."
+      ],
+      "decisions": [
+        {
+          "title": "Apache Spark pour le traitement batch",
+          "body": "De grands jeux de données comportementales hors ligne conviennent à un moteur batch mature. Les API structurées de Spark ont rendu les transformations lisibles et scalables, donnant aux entrées de recommandations recalculées un chemin fiable."
+        },
+        {
+          "title": "Apache Flink pour le streaming",
+          "body": "Quand les données comportementales doivent influencer les recommandations en quasi-temps réel, un moteur de streaming est la forme adaptée. Flink fournit un traitement de flux fiable et à faible latence — gérant une entrée continue plutôt qu'un recalcul périodique."
+        },
+        {
+          "title": "MongoDB pour un stockage flexible",
+          "body": "Les données d'événements à haut volume sont hétérogènes et changeantes par nature. Le modèle document de MongoDB a absorbé proprement cette variation aux bornes de la pipeline, là où des schémas relationnels rigides auraient contraint l'ingestion."
+        }
+      ],
+      "result": "Construction d'une pipeline de recommandation fonctionnelle : Spark et Flink traitent de grands jeux de données comportementales, MongoDB stockant les entrées et sorties de la pipeline — une démonstration au niveau architecture de la façon dont les recommandations peuvent être calculées à l'échelle.",
+      "learnings": [
+        "Batch versus stream est un arbitrage latence-coût, et cette décision d'architecture entraîne tout le reste de la pipeline.",
+        "Les moteurs distribués déplacent la pensée des boucles vers les étages — la forme de la pipeline est en quelque sorte le programme.",
+        "Un stockage à schéma flexible (MongoDB) aux bornes garde l'ingestion simple quand les données d'événements refusent de rester uniformes."
+      ]
+    },
+    "carpool-optimization": {
+      "title": "Optimisation de covoiturage",
+      "summary": "Un outil de covoiturage piloté par algorithmes, construit pour explorer l'optimisation et la planification d'itinéraires.",
+      "description": "Un projet algorithmique concentré : modéliser le covoiturage comme un problème de graphe et appliquer une planification de plus court chemin en Python. L'accent est mis sur le cœur algorithmique du covoiturage — comment trajets, prises en charge et destinations deviennent un problème que l'on peut réellement calculer.",
+      "role": "Ingénieur Algorithmes",
+      "problem": "Le covoiturage est fondamentalement un problème de routage : étant donnés les prises en charge, les déposes et les contraintes de véhicule, trouver des itinéraires et des affectations sensés. L'objectif était d'implémenter et d'évaluer des approches de plus court chemin basées sur les graphes — en gardant le périmètre sur l'algorithme plutôt que sur un produit complet.",
+      "problemPoints": [
+        "Un trajet en covoiturage s'exprime naturellement comme un graphe : lieux en nœuds, connexions routières en arêtes.",
+        "La qualité des itinéraires dépend de la métrique de chemin optimisée : l'objectif doit être énoncé en amont.",
+        "Le cœur algorithmique doit être compris proprement avant toute complexité produit."
+      ],
+      "contribution": "J'ai implémenté le modèle de graphe et la logique de planification d'itinéraires en Python — exprimant les trajets de covoiturage comme des graphes et appliquant un calcul de plus court chemin pour explorer l'optimisation des itinéraires.",
+      "contributionPoints": [
+        "Modélisation des trajets de covoiturage comme un problème de graphe en Python.",
+        "Implémentation de la planification par plus court chemin sur le modèle."
+      ],
+      "decisions": [
+        {
+          "title": "D'abord la modélisation en graphe",
+          "body": "Modéliser prises en charge, déposes et connexions routières comme un graphe a rendu l'optimisation lisible : nœuds et arêtes ont transformé un problème de routage ambigu en un calcul concret de plus court chemin."
+        },
+        {
+          "title": "Python pour des itérations rapides",
+          "body": "Python a rendu l'expérimentation de différentes variantes de planification facile sans se battre avec le langage — le bon outil quand l'objectif est l'intuition algorithmique plutôt que le débit de production."
+        },
+        {
+          "title": "Un périmètre algorithmique focalisé",
+          "body": "Restreindre le périmètre au cœur du plus court chemin — plutôt qu'à un produit complet de covoiturage — a gardé l'étude précise, portée par l'optimisation elle-même et non par un scope qui gonfle."
+        }
+      ],
+      "result": "Production d'une implémentation Python qui modélise les trajets de covoiturage comme des graphes et applique une planification par plus court chemin — une démonstration propre et focalisée du cœur algorithmique d'un service de covoiturage.",
+      "learnings": [
+        "Énoncer l'objectif (plus court chemin, affectation réalisable) avant d'écrire le code, c'est ce qui garde un projet algorithmique rigoureux.",
+        "Choisir la bonne abstraction tôt — le graphe — a rendu l'optimisation lisible au lieu de l'enterrer dans des structures de données.",
+        "Un périmètre serré autour de l'algorithme produit une compréhension plus nette qu'une implémentation large mais superficielle."
+      ]
+    }
+  },
+  "articlesData": {
+    "git-workflow": {
+      "title": "Git : le workflow que j'utilise pour garder mes projets sous contrôle",
+      "excerpt": "Ce qu'est Git, pourquoi le contrôle de version compte, et le workflow branche → commit → push → pull request qui garde les vrais projets sur les rails.",
+      "intro": "Git devient utile dès qu'un projet implique plus d'une personne — ou même une seule personne qui veut pouvoir annuler la semaine dernière et comprendre ce qui a changé. Cette note explique les fondamentaux et le petit workflow que j'utilise pour garder mes projets sous contrôle.",
+      "seoTitle": "Workflow Git : branches, commits et pull requests",
+      "seoDescription": "Une introduction pratique à Git, couvrant les commits, les branches, les fusions et un workflow simple pour travailler sur des projets logiciels réels.",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "Pourquoi le contrôle de version compte"
+        },
+        {
+          "type": "paragraph",
+          "text": "Avant le contrôle de version, partager du code revenait généralement à copier des dossiers, envoyer des archives et espérer que personne n'écrase le travail des autres. Cela se dégrade vite : deux personnes modifient le même fichier, une sauvegarde détruit silencieusement les modifications de l'autre, et il n'existe aucun moyen de répondre à la question de base : « qu'est-ce qui a changé, et pourquoi ? »."
+        },
+        {
+          "type": "paragraph",
+          "text": "Le contrôle de version donne à un projet trois choses à la fois : un historique complet de chaque changement, la possibilité de travailler sur plusieurs choses en parallèle, et un moyen sûr de revenir en arrière quand quelque chose casse. Git est l'outil qui fournit cela, et c'est ainsi que la plupart des vrais projets logiciels sont organisés."
+        },
+        {
+          "type": "paragraph",
+          "text": "Un exemple concret aide. Deux personnes travaillent sur la même page : l'une enregistre une refactorisation, l'autre un correctif de bug. Sans historique, la dernière sauvegarde remplace silencieusement le travail de l'autre et personne ne sait pourquoi. Avec Git, les deux modifications vivent dans des commits séparés, et tout conflit est révélé par la fusion et résolu comme une étape délibérée au lieu d'être perdu."
+        },
+        {
+          "type": "heading",
+          "text": "Dépôt, commit, branche"
+        },
+        {
+          "type": "paragraph",
+          "text": "Quatre mots couvrent l'essentiel de Git :"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Dépôt — un dossier plus l'historique complet de tout ce qu'il contient. On l'initialise avec git init.",
+            "Commit — un instantané du projet à un moment donné, enregistré avec un message. L'historique n'est qu'une chaîne de commits.",
+            "Branche — une ligne de travail séparée. On peut expérimenter sans toucher la ligne principale, puis décider plus tard d'y ramener le travail.",
+            "Fusion — l'opération qui ramène les changements d'une branche dans une autre."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Il y a aussi .gitignore, un petit fichier qui indique à Git quels fichiers n'appartiennent jamais au dépôt — sorties de build, dépendances, fichiers d'environnement contenant des secrets. Garder ceux-ci dehors est aussi important que de faire de bons commits."
+        },
+        {
+          "type": "heading",
+          "text": "Le workflow de tous les jours"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dans les projets d'équipe sur lesquels je travaille, presque chaque tâche suit la même boucle : créer une branche, faire des modifications, commit, push, ouvrir une pull request, la faire relire, fusionner. Cela semble verbeux, mais cela garde la branche principale stable et chaque changement revuable."
+        },
+        {
+          "type": "code",
+          "title": "Le workflow",
+          "language": "text",
+          "body": "Créer une branche\n    ↓\nFaire des modifications\n    ↓\ngit add\n    ↓\ngit commit\n    ↓\ngit push\n    ↓\nPull Request\n    ↓\nRevue / Fusion"
+        },
+        {
+          "type": "paragraph",
+          "text": "En commandes, une itération ressemble à ceci :"
+        },
+        {
+          "type": "code",
+          "title": "Une itération",
+          "language": "bash",
+          "body": "git checkout -b feature/login\ngit add src/login.ts\ngit commit -m \"Valider l'e-mail avant l'envoi\"\ngit push origin feature/login"
+        },
+        {
+          "type": "paragraph",
+          "text": "git add choisit quelles modifications entrent dans le prochain commit, git commit les enregistre avec un message, et git push publie la branche pour que les autres puissent la voir. Chaque étape est explicite — rien n'arrive par accident."
+        },
+        {
+          "type": "heading",
+          "text": "Lire l'état de votre dépôt"
+        },
+        {
+          "type": "paragraph",
+          "text": "Trois commandes couvrent l'essentiel de « où suis-je et que se passe-t-il ? » :"
+        },
+        {
+          "type": "list",
+          "items": [
+            "git status — montre quels fichiers ont changé, ce qui est prêt pour le prochain commit, et la branche courante.",
+            "git diff — montre les lignes exactes qui ont changé depuis le dernier commit.",
+            "git log --oneline — affiche l'historique récent, un commit par ligne."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ensemble, elles répondent où vous êtes, ce que vous avez changé et à quoi ressemble l'historique à tout moment. Elles ne coûtent rien et éloignent la confusion dans un dépôt partagé."
+        },
+        {
+          "type": "heading",
+          "text": "Pull, push et pull requests"
+        },
+        {
+          "type": "paragraph",
+          "text": "git pull ramène les derniers commits du dépôt partagé dans le vôtre ; git push envoie vos commits vers ce dépôt partagé. Entre les deux, une pull request (PR) est une fusion proposée : « j'ai terminé cette branche, veuillez la relire. » C'est là que la revue de code se joue — les gens commentent les lignes, demandent des changements et approuvent avant que quoi que ce soit n'atterrisse sur la branche principale."
+        },
+        {
+          "type": "heading",
+          "text": "Pourquoi des commits utiles"
+        },
+        {
+          "type": "paragraph",
+          "text": "Un message de commit est un message adressé à votre futur vous et à vos coéquipiers. « trucs réparés » est inutile un mois plus tard ; « valider l'e-mail avant l'envoi » dit exactement ce qui a changé et pourquoi. De bons messages rendent aussi l'historique consultable et rendent git bisect — trouver quel commit a cassé quelque chose — bien plus efficace."
+        },
+        {
+          "type": "heading",
+          "text": "Quand quelque chose casse"
+        },
+        {
+          "type": "paragraph",
+          "text": "La réputation effrayante de Git vient surtout de cette sensation d'être coincé dans un état que l'on ne reconnaît pas. En pratique, les cas courants sont petits :"
+        },
+        {
+          "type": "list",
+          "items": [
+            "git restore <fichier> annule les modifications non commitées d'un fichier.",
+            "git revert <commit> ajoute un nouveau commit qui annule un commit précédent — la façon sûre de sortir d'un historique déjà poussé.",
+            "git log --oneline --graph montre les branches dans l'historique, ce qui règle la plupart des questions « d'où ça vient, ça ? »."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "git commit --amend est acceptable tant qu'une branche est encore à vous ; dès qu'elle est partagée, préférez un nouveau commit. Et les cas vraiment effrayants sont rarement fatals — git reflog garde un journal local de là où HEAD se trouvait, c'est le filet de sécurité sur lequel on retombe en général."
+        },
+        {
+          "type": "heading",
+          "text": "Erreurs courantes chez les débutants"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Committer des secrets — clés, mots de passe, fichiers .env. Si cela a déjà été poussé, changez-les et retirez-les de l'historique.",
+            "Committer des artefacts de build comme node_modules, target ou dist. Ajoutez-les au .gitignore dès le premier jour.",
+            "De gros commits flous qui mélangent cinq changements sans rapport.",
+            "Pousser directement sur main au lieu de travailler sur une branche.",
+            "Force-push sur des branches sur lesquelles d'autres personnes basent leur travail.",
+            "Ne pas faire pull avant push, puis se battre avec des conflits de fusion qu'un pull de deux secondes aurait évités."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Pour conclure"
+        },
+        {
+          "type": "paragraph",
+          "text": "Revenons à la question de départ : comment Git aide-t-il réellement à construire un vrai projet avec d'autres personnes ? Il conserve un historique partagé et consultable. Il permet à chacun de travailler en parallèle sur des branches sans se marcher dessus. Et il rend chaque changement revuable et réversible — l'équipe peut donc avancer plus vite parce que casser quelque chose n'est plus la fin du monde."
+        }
+      ]
+    },
+    "git-and-github": {
+      "title": "Git et GitHub : ce que chacun fait réellement",
+      "excerpt": "Git gère l'historique des versions sur votre machine. GitHub donne à une équipe un lieu partagé pour collaborer autour de cet historique. Voici comment ils s'assemblent.",
+      "keyIdea": "Git gère l'historique des versions. GitHub donne à une équipe un lieu pour collaborer autour de cet historique.",
+      "intro": "Les débutants en contrôle de version disent souvent « Git » et « GitHub » comme s'il s'agissait d'une seule chose. Ce sont deux objets différents qui fonctionnent en binôme. Cette note est la version courte de la manière dont ce binôme s'assemble, en complément de l'article sur le workflow Git.",
+      "seoTitle": "Git vs GitHub : comment ils fonctionnent ensemble",
+      "seoDescription": "La différence entre Git et GitHub, et comment dépôts locaux, dépôts distants, pull requests, issues et revues s'intègrent dans un flux de travail d'équipe normal.",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "Git vs GitHub"
+        },
+        {
+          "type": "paragraph",
+          "text": "Git est un outil installé sur votre machine. Il suit les versions d'un projet localement, fonctionne entièrement hors ligne et n'exige ni compte ni connexion internet. GitHub est une plateforme web où les équipes stockent leurs dépôts en ligne. Elle héberge les mêmes dépôts Git et ajoute des outils de collaboration : pull requests, revue de code, issues, documentation et automatisation."
+        },
+        {
+          "type": "heading",
+          "text": "Dépôt local vs dépôt distant"
+        },
+        {
+          "type": "paragraph",
+          "text": "Un dépôt existe en deux endroits liés. Le dépôt local vit sur votre machine : c'est là que vous committez chaque jour. Le dépôt distant est une copie partagée — généralement sur GitHub — d'où tout le monde tire (pull) et vers laquelle tout le monde pousse (push). Ce ne sont pas des doublons à maintenir à la main ; trois commandes les gardent synchronisés :"
+        },
+        {
+          "type": "code",
+          "title": "Rester synchronisé",
+          "language": "bash",
+          "body": "git clone https://github.com/team/project.git\ngit pull\ngit push"
+        },
+        {
+          "type": "paragraph",
+          "text": "git clone télécharge un dépôt distant pour la première fois. git pull ramène les derniers changements du dépôt distant dans le vôtre. git push envoie vos commits locaux vers le dépôt distant pour que le reste de l'équipe les voie."
+        },
+        {
+          "type": "heading",
+          "text": "Branches et pull requests sur GitHub"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les branches existent dans Git lui-même. GitHub ajoute une manière structurée de les terminer : au lieu de fusionner une branche en silence, on ouvre une pull request proposant « que cette branche soit fusionnée dans main ». Les membres de l'équipe relisent alors la diff ligne par ligne, laissent des commentaires, demandent des changements, et approuvent. Tout est enregistré, donc l'historique des décisions reste visible longtemps après la fusion."
+        },
+        {
+          "type": "heading",
+          "text": "Issues et README"
+        },
+        {
+          "type": "paragraph",
+          "text": "Deux petites fonctionnalités de GitHub pèsent lourd dans un projet. Les issues sont des tickets pour les tâches et les bugs — décrire un problème, le relier à la branche qui le corrige, et la fermer quand la pull request est fusionnée. Le README est le premier document que les gens lisent : ce que fait le projet, comment le lancer, comment contribuer. Un projet sans README est un projet qui laisse les gens deviner."
+        },
+        {
+          "type": "heading",
+          "text": "Organisation du dépôt"
+        },
+        {
+          "type": "paragraph",
+          "text": "Un dépôt bien tenu est surtout une habitude : un nom clair, un README réellement maintenu, un .gitignore pour les artefacts de build, des dossiers qui collent à la structure du projet, et une protection de la branche principale pour qu'elle ne change que par des pull requests relues. Rien de tout cela n'exige d'expertise — c'est de la constance qui paie."
+        },
+        {
+          "type": "paragraph",
+          "text": "Si vous démarrez un dépôt aujourd'hui, les habitudes de commit sont la forme d'organisation la moins chère : commitez souvent, commitez petit, et écrivez des messages qui expliquent pourquoi. Tout le reste — profils, labels, modèles — est un vernis qui se cumule par-dessus un historique propre."
+        },
+        {
+          "type": "heading",
+          "text": "Des pull requests bien faites"
+        },
+        {
+          "type": "paragraph",
+          "text": "Une pull request est une affirmation qu'une branche est terminée et prête à fusionner. Les plus utiles sont petites : une branche, une préoccupation. La description doit dire ce que le changement fait, pourquoi, relier la issue qu'il ferme, et signaler ce qu'un relecteur doit lancer pour tester. Quand une pull request devient trop grosse, les relecteurs survolent ; quand elle reste ciblée, la revue de code génère vraiment de la discussion."
+        },
+        {
+          "type": "heading",
+          "text": "L'automatisation entre la pull request et la fusion"
+        },
+        {
+          "type": "paragraph",
+          "text": "Entre proposer un changement et le fusionner, la plupart des dépôts font tourner des vérifications. Un workflow GitHub Actions s'exécute à chaque push : installer les dépendances, lancer les linters et les tests, et annoncer le résultat directement sur la pull request. Le décalage est petit mais signifiant — au lieu de croire un coéquipier sur parole que les tests passent, la pull request montre les vérifications elles-mêmes."
+        },
+        {
+          "type": "code",
+          "title": "Un workflow minimal (simplifié)",
+          "language": "yaml",
+          "body": "name: CI\non: push\njobs:\n  test:\n    runs-on: ubuntu-latest\n    steps:\n      - uses: actions/checkout@v4\n      - run: npm ci\n      - run: npm test"
+        },
+        {
+          "type": "paragraph",
+          "text": "La syntaxe importe moins que le principe : le dépôt définit sa propre barrière de qualité, et chaque changement doit la franchir avant la fusion."
+        },
+        {
+          "type": "heading",
+          "text": "Organisations, forks et permissions"
+        },
+        {
+          "type": "paragraph",
+          "text": "À mesure qu'un projet grandit, la question des permissions trouve une réponse différente. Les membres d'une équipe travaillent en général ensemble dans un dépôt partagé, avec des branches et des pull requests. Les contributeurs extérieurs, eux, forkkent le dépôt — créant une copie personnelle — et ouvrent leurs pull requests depuis cette copie. Les deux flux utilisent exactement les mêmes commandes Git ; seule la structure du dépôt distant change."
+        },
+        {
+          "type": "heading",
+          "text": "Comment ils s'assemblent : un workflow d'équipe"
+        },
+        {
+          "type": "code",
+          "title": "Une itération normale sur GitHub",
+          "language": "text",
+          "body": "Cloner le dépôt\n    ↓\nCréer une branche\n    ↓\nCommit + push\n    ↓\nOuvrir une Pull Request\n    ↓\nRevue + corrections\n    ↓\nFusion"
+        },
+        {
+          "type": "paragraph",
+          "text": "La boucle est volontairement petite : Git fait le contrôle de version en local, le dépôt distant garde tout le monde synchronisé, et la pull request est l'étape de revue. Sur les dépôts bien gérés, la branche principale ne change que par ce chemin — l'historique reste lisible et chaque changement est lié à une discussion."
+        },
+        {
+          "type": "heading",
+          "text": "Pour conclure"
+        },
+        {
+          "type": "paragraph",
+          "text": "Si vous ne retenez qu'une phrase : Git gère l'historique des versions, et GitHub donne à une équipe un lieu pour collaborer autour de cet historique. Commencez par un dépôt local, poussez-le sur GitHub, et laissez le workflow — branche, commit, pull request, fusion — grandir naturellement avec l'équipe."
+        }
+      ]
+    },
+    "docker-explained": {
+      "title": "Docker expliqué simplement : pourquoi les conteneurs sont utiles",
+      "excerpt": "Quels problèmes Docker résout, ce que sont les images et les conteneurs, et comment une application web plus une base de données peuvent tourner de la même façon sur chaque machine.",
+      "intro": "« Ça marche chez moi » est l'une des phrases les plus courantes en informatique. Docker est la réponse à cette phrase : il empaquette une application avec son environnement, pour qu'elle tourne partout de la même façon — sur le portable d'un coéquipier, sur un serveur, dans un pipeline CI.",
+      "seoTitle": "Docker expliqué : images, conteneurs et Compose",
+      "seoDescription": "Les conteneurs expliqués pour débutants : les problèmes que Docker résout, images vs conteneurs, Dockerfiles, volumes, ports, et comment lancer une application avec Docker Compose.",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "Le problème que Docker résout"
+        },
+        {
+          "type": "paragraph",
+          "text": "Un projet tourne rarement sur « une machine ». Il tourne sur une version précise d'un langage, une base de données précise, des bibliothèques système précises et des variables d'environnement précises. Tout cela peut différer d'une machine à l'autre, ce qui explique qu'un projet qui démarre chez vous casse chez un collègue. Docker déplace tout l'environnement dans le projet lui-même, sous une forme empaquetée et reproductible."
+        },
+        {
+          "type": "paragraph",
+          "text": "L'exemple du projet de groupe est parlant. Un coéquipier tourne avec Node 18, un autre avec Node 22 ; l'un a PostgreSQL installé localement sur un port précis, l'autre ne l'a jamais installé. Le code est identique — ce qui diffère, ce sont les environnements — et un après-midi part à les réconcilier. Docker retire la question de l'environnement de la table : l'environnement est décrit dans le projet lui-même."
+        },
+        {
+          "type": "heading",
+          "text": "Images et conteneurs"
+        },
+        {
+          "type": "paragraph",
+          "text": "Deux mots couvrent l'essentiel du modèle mental :"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Image — un modèle en lecture seule : le code de l'application plus tout ce dont elle a besoin pour tourner. Construite à partir d'un fichier appelé Dockerfile.",
+            "Conteneur — une instance en cours d'exécution d'une image. On peut lancer plusieurs conteneurs depuis la même image, et un conteneur se démarre, s'arrête et se supprime sans toucher aux autres."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Si une image est une recette, un conteneur est le plat préparé."
+        },
+        {
+          "type": "heading",
+          "text": "Un Dockerfile"
+        },
+        {
+          "type": "paragraph",
+          "text": "Un Dockerfile est une liste d'instructions pour construire une image. Exemple simple avec Node.js :"
+        },
+        {
+          "type": "code",
+          "title": "Dockerfile",
+          "language": "dockerfile",
+          "body": "FROM node:20\nWORKDIR /app\nCOPY package*.json ./\nRUN npm install\nCOPY . .\nCMD [\"npm\", \"start\"]"
+        },
+        {
+          "type": "paragraph",
+          "text": "FROM choisit une image de base, COPY ajoute des fichiers, RUN exécute une commande pendant la construction, et CMD définit la commande lancée au démarrage du conteneur. Chaque ligne est mise en cache, donc reconstruire après un petit changement est généralement rapide."
+        },
+        {
+          "type": "heading",
+          "text": "Calques et cache"
+        },
+        {
+          "type": "paragraph",
+          "text": "Chaque instruction d'un Dockerfile produit un calque, et Docker met chaque calque en cache. Ne changez que le code de l'application, et tous les calques au-dessus restent réutilisés — c'est pourquoi écrire COPY package*.json avant COPY . est une habitude : les dépendances sont installées une fois, puis les fichiers de l'application sont copiés par-dessus. Un Dockerfile bien ordonné transforme « pourquoi chaque rebuild prend-il dix minutes ? » en « pourquoi ce rebuild est-il si rapide ? »."
+        },
+        {
+          "type": "heading",
+          "text": "Ports, volumes et variables d'environnement"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Ports — un conteneur a son propre espace réseau. On mappe un port à l'extérieur vers un port à l'intérieur, pour que localhost:8080 rejoigne l'application dans le conteneur.",
+            "Volumes — les conteneurs sont éphémères ; un volume garde les données (comme celles d'une base) vivantes en dehors du système de fichiers du conteneur.",
+            "Variables d'environnement — la configuration comme les URLs de base de données et les identifiants, passée au lancement au lieu d'être codée en dur dans l'image."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ensemble, ils rendent une image réutilisable dans des situations différentes : la même image peut pointer vers une base locale en développement et une vraie base en production, simplement en changeant les variables d'environnement."
+        },
+        {
+          "type": "heading",
+          "text": "Plusieurs services avec Docker Compose"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les vraies applications sont rarement un seul processus. Docker Compose décrit plusieurs services dans un fichier YAML et les lance ensemble d'une seule commande. Une pile qui ressemble aux projets sur lesquels je travaille — un frontend Angular appelant une API Spring Boot adossée à PostgreSQL — peut tourner comme trois conteneurs :"
+        },
+        {
+          "type": "code",
+          "title": "docker-compose.yml (simplifié)",
+          "language": "yaml",
+          "body": "services:\n  db:\n    image: postgres:16\n    environment:\n      POSTGRES_DB: app\n    volumes:\n      - db-data:/var/lib/postgresql/data\n  api:\n    build: ./backend\n    environment:\n      SPRING_DATASOURCE_URL: jdbc:postgresql://db:5432/app\n    ports:\n      - \"8080:8080\"\n  web:\n    build: ./frontend\n    ports:\n      - \"4200:4200\"\nvolumes:\n  db-data:"
+        },
+        {
+          "type": "paragraph",
+          "text": "docker compose up construit et démarre toute la pile. Les services se joignent par leur nom (db, api, web), c'est pourquoi l'API Spring Boot peut pointer son URL de datasource directement vers le conteneur de base de données au lieu d'une IP codée en dur."
+        },
+        {
+          "type": "heading",
+          "text": "Déboguer une pile en cours d'exécution"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les conteneurs sont faciles à inspecter pendant qu'ils tournent. docker ps montre ce qui s'exécute, docker logs <service> diffuse la sortie d'un conteneur, et docker exec -it <service> sh ouvre un shell à l'intérieur — et dans une pile Compose, les noms de services correspondent directement à ces commandes. Déboguer dans un conteneur ressemble à du débogage normal, le shell vit simplement ailleurs."
+        },
+        {
+          "type": "heading",
+          "text": "Les conteneurs dans le pipeline de build"
+        },
+        {
+          "type": "paragraph",
+          "text": "La même reproductibilité qui répare les portables incompatibles répare aussi le pipeline de build : un job CI qui lance les tests dans la même image que celle utilisée en local obtient des résultats identiques par construction. C'est le gain pratique que l'on veut dire quand on parle de « Docker partout » — une seule description de l'environnement, utilisée d'un shell local à un serveur de build."
+        },
+        {
+          "type": "heading",
+          "text": "Où j'ai rencontré cela en pratique"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ce n'est pas pour moi de la théorie abstraite : dans le projet MarocSphere, Docker a fait partie de la façon dont je travaillais sur le backend et dont j'ai déployé la plateforme, en faisant tourner la même pile sur chaque machine au lieu de calibrer chaque installation à la main. Cela a aussi assaini la passation — un nouveau contributeur pouvait cloner le dépôt, lancer docker compose up et obtenir toute la pile au lieu d'assembler les dépendances une à une."
+        },
+        {
+          "type": "heading",
+          "text": "Ce que cet article ne couvre pas"
+        },
+        {
+          "type": "paragraph",
+          "text": "Volontairement absents : Kubernetes, l'orchestration à grande échelle et l'architecture en microservices. Les conteneurs résolvent un problème ciblé — empaqueter une application avec son environnement. Pour un projet étudiant ou le déploiement d'une petite équipe, Docker seul est généralement exactement le bon niveau d'outillage."
+        },
+        {
+          "type": "heading",
+          "text": "Pour conclure"
+        },
+        {
+          "type": "paragraph",
+          "text": "La valeur de Docker tient à la reproductibilité : une image porte le code et son environnement, un conteneur l'exécute, volumes et variables d'environnement gardent configuration et données séparées, et Compose relie plusieurs services. Dès qu'une pile tourne en conteneurs, « ça marche chez moi » cesse d'être un sujet."
+        }
+      ]
+    },
+    "algorithm-complexity": {
+      "title": "Complexité algorithmique : comprendre Big O sans mal de tête",
+      "excerpt": "Ce que Big O veut vraiment dire, pourquoi deux algorithmes corrects peuvent tourner très différemment, et où la complexité apparaît dans les projets de données et de graphes.",
+      "intro": "Deux programmes peuvent tous deux être corrects et tourner à des vitesses complètement différentes. La raison est généralement la complexité algorithmique — la quantité de travail que l'algorithme fournit à mesure que l'entrée grandit. Cette note explique l'idée avec des exemples simples, sans l'angoisse des mathématiques.",
+      "seoTitle": "Big O expliqué : la complexité algorithmique rendue simple",
+      "seoDescription": "Complexité temporelle et spatiale expliquées avec des exemples simples : O(1), O(log n), O(n), O(n log n) et O(n²), et pourquoi le bon algorithme compte.",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "Ce qu'est un algorithme"
+        },
+        {
+          "type": "paragraph",
+          "text": "Un algorithme est simplement une séquence d'étapes qui transforme une entrée en sortie — une recette pour le calcul. Trier une liste, trouver un élément ou calculer le plus court chemin entre deux lieux dans un graphe sont des problèmes de calcul que l'on résout avec un algorithme."
+        },
+        {
+          "type": "heading",
+          "text": "Pourquoi la complexité compte"
+        },
+        {
+          "type": "paragraph",
+          "text": "« Correct » n'est pas la même chose que « assez rapide ». Votre programme peut être parfaitement correct et prendre néanmoins des minutes sur des données que votre algorithme n'a jamais été conçu pour. La complexité est l'outil pour en parler à l'avance : elle décrit comment le coût d'un algorithme grandit quand l'entrée grandit, au lieu de mesurer une exécution chanceuse sur une machine précise."
+        },
+        {
+          "type": "heading",
+          "text": "Complexité temporelle et spatiale"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Complexité temporelle — approximativement le nombre d'étapes que prend un algorithme en fonction de la taille n de l'entrée.",
+            "Complexité spatiale — la quantité de mémoire supplémentaire qu'il utilise en fonction de n."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La notation Big O décrit le taux de croissance, en ignorant les constantes : O(n) signifie une croissance linéaire, O(n²) une croissance quadratique. L'important est la forme de la courbe, pas le nombre exact d'opérations."
+        },
+        {
+          "type": "heading",
+          "text": "Les classes Big O courantes"
+        },
+        {
+          "type": "paragraph",
+          "text": "Quelques classes couvrent l'essentiel de ce que vous rencontrerez, du moins cher au plus cher :"
+        },
+        {
+          "type": "list",
+          "items": [
+            "O(1) — temps constant. Le travail ne dépend pas de la taille de l'entrée. Lire le troisième élément d'un tableau est O(1) : le tableau sait où vit chaque élément.",
+            "O(log n) — temps logarithmique. Chaque étape divise le problème par deux. La recherche binaire sur des données triées est l'exemple classique.",
+            "O(n) — temps linéaire. Le travail grandit exactement comme l'entrée. Parcourir un tableau pour trouver une valeur est O(n).",
+            "O(n log n) — « linéarithmique ». Les algorithmes de tri efficaces comme le tri fusion et le tri rapide coûtent ceci.",
+            "O(n²) — temps quadratique. Des boucles imbriquées sur la même collection. Parfait pour de petites n, douloureux à mesure que n grandit."
+          ]
+        },
+        {
+          "type": "code",
+          "title": "Trouver un élément dans un tableau — O(n)",
+          "language": "python",
+          "body": "for item in items:\n    if item == target:\n        return True"
+        },
+        {
+          "type": "code",
+          "title": "Recherche binaire sur des données triées — O(log n)",
+          "language": "python",
+          "body": "low, high = 0, len(items) - 1\nwhile low <= high:\n    mid = (low + high) // 2\n    if items[mid] == target:\n        return mid\n    if items[mid] < target:\n        low = mid + 1\n    else:\n        high = mid - 1"
+        },
+        {
+          "type": "code",
+          "title": "Boucles imbriquées sur la même collection — O(n²)",
+          "language": "python",
+          "body": "for i in items:\n    for j in items:\n        if i + j == target:\n            return True"
+        },
+        {
+          "type": "paragraph",
+          "text": "Deux habitudes gardent Big O lisible. Premièrement, ignorez les constantes : un algorithme qui fait toujours deux fois plus de travail appartient tout de même à la même classe de croissance — O(2n) est en réalité O(n), car ce qui compte est comment le coût évolue, pas le facteur. Deuxièmement, ne gardez que le terme qui croît le plus vite : O(n² + n) est O(n²), puisque la partie linéaire devient sans importance à mesure que n grandit. Ces simplifications permettent de comparer les algorithmes par leur forme au lieu de par leur bruit."
+        },
+        {
+          "type": "code",
+          "title": "Trouver le même élément dans un ensemble de hachage — O(1) en moyenne",
+          "language": "python",
+          "body": "if target in items:\n    return True"
+        },
+        {
+          "type": "paragraph",
+          "text": "La même question coûte O(n) dans un tableau, O(log n) dans un arbre équilibré, et environ O(1) en moyenne dans un ensemble de hachage. Même requête, mêmes données, trois formes de croissance différentes — le bon choix dépend de la forme des données et de la façon dont elles sont interrogées, pas d'une « meilleure » structure unique."
+        },
+        {
+          "type": "heading",
+          "text": "Pourquoi deux algorithmes corrects peuvent être très différents"
+        },
+        {
+          "type": "paragraph",
+          "text": "La correction répond à « est-ce que ça marche ? » ; la complexité répond à « est-ce que ça marche encore quand l'entrée est grande ? ». L'écart devient évident avec les chiffres. Avec un million d'éléments, un parcours O(n) coûte environ un million d'étapes, tandis qu'un algorithme O(n²) coûte environ mille milliards — la différence entre quelques millisecondes et des minutes, voire des heures. Les deux sont corrects ; un seul est utilisable."
+        },
+        {
+          "type": "heading",
+          "text": "La complexité cachée"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les vrais programmes cachent de la complexité dans les appels de bibliothèque. Retirer un élément au milieu d'une liste peut tout décaler — du code d'apparence bon marché avec une queue en O(n) ou O(n²). Concaténer des chaînes en boucle est un piège quadratique classique. La compétence ne consiste pas à mémoriser chaque implémentation ; elle consiste à remarquer quand une fonction familière fait plus de travail qu'elle n'en a l'air, puis à vérifier avec des données de taille réaliste au lieu de discuter."
+        },
+        {
+          "type": "heading",
+          "text": "Raisonner en pratique"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous n'avez presque jamais besoin d'une preuve formelle — une estimation suffit. Quelle serait, au pire, la taille réelle de l'entrée, et que fait la courbe de croissance à ce niveau ? Pour quelques milliers d'éléments, un balayage O(n²) est parfois parfaitement acceptable ; à un million, le même code cesse de l'être du jour au lendemain. La complexité donne un argument de deux lignes pour choisir une approche plutôt qu'une autre en revue de code, et elle attrape les surprises de performance avant qu'elles ne deviennent des incidents."
+        },
+        {
+          "type": "heading",
+          "text": "Où cela apparaît dans mes projets"
+        },
+        {
+          "type": "paragraph",
+          "text": "La complexité n'est pas une idée de salle de cours. Dans mon projet d'optimisation de covoiturage, le covoiturage est modélisé comme un problème de graphe et résolu par une planification de plus court chemin — les algorithmes de graphes existent précisément pour garder de telles recherches efficaces sur des entrées de taille réelle. Dans mon travail sur le système de recommandation, de grands volumes de données comportementales traversent Apache Spark en traitement par lots et Apache Flink en streaming, où le coût des jointures et des agrégations dépend directement des algorithmes derrière les moteurs."
+        },
+        {
+          "type": "heading",
+          "text": "Pour conclure"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous n'avez presque jamais besoin de prouver des bornes serrées ; vous devez estimer la croissance. Avant de choisir une approche, demandez : comment le travail évolue-t-il avec l'entrée, et est-ce acceptable pour les données que j'aurai vraiment ? Nommer O(n), O(n log n) ou O(n²) vous donne un langage précis et partagé pour cette décision — en entretien, en revue de code et dans vos choix de conception."
+        }
+      ]
+    }
+  }
+}

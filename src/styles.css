@@ -1,0 +1,484 @@
+@import 'tailwindcss';
+
+/* ---------------------------------------------------------------------------
+   DARK MODE VARIANT
+   `.dark` on <html> is applied by the theme bootstrap script before first
+   paint (see index.html) and kept in sync by the ThemeService.
+--------------------------------------------------------------------------- */
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* ---------------------------------------------------------------------------
+   DESIGN TOKENS
+   Colors and shadows are runtime-switchable CSS variables: `:root` holds the
+   light palette, `.dark` overrides it. Tailwind utilities resolve through
+   `@theme inline` so `text-primary`, `bg-surface`, `shadow-card`, … all
+   follow the active theme.
+--------------------------------------------------------------------------- */
+
+:root {
+  --background: #f7f5f2;
+  --surface: #ffffff;
+  --primary: #111111;
+  --secondary: #6b6b6b;
+  --border: #e8e5e1;
+  --accent: #0f766e;
+  --accent-hover: #115e59;
+  --success: #15803d;
+  --on-accent: #ffffff;
+
+  /* Elevation */
+  --elevation-card: 0 1px 2px rgba(17, 17, 17, 0.04), 0 8px 30px rgba(17, 17, 17, 0.06);
+  --elevation-card-hover: 0 2px 4px rgba(17, 17, 17, 0.05), 0 14px 40px rgba(17, 17, 17, 0.12);
+
+  /* Background atmosphere */
+  --atmo-line: #0f766e;
+  --atmo-line-opacity: 0.1;
+  --atmo-dot: #0f766e;
+  --atmo-dot-soft: #111111;
+  --atmo-glow: #0f766e;
+  --atmo-glow-opacity: 0.05;
+
+  color-scheme: light;
+}
+
+.dark {
+  --background: #0a0a0a;
+  --surface: #121212;
+  --primary: #f5f5f5;
+  --secondary: #a3a3a3;
+  --border: #262626;
+  --accent: #2dd4bf;
+  --accent-hover: #5eead4;
+  --success: #4ade80;
+  --on-accent: #0a0a0a;
+
+  --elevation-card: 0 8px 40px rgba(0, 0, 0, 0.3);
+  --elevation-card-hover: 0 14px 52px rgba(0, 0, 0, 0.45);
+
+  --atmo-line: #2dd4bf;
+  --atmo-dot: #2dd4bf;
+  --atmo-dot-soft: #f5f5f5;
+  --atmo-glow: #2dd4bf;
+  --atmo-glow-opacity: 0.06;
+
+  color-scheme: dark;
+}
+
+@theme inline {
+  /* Brand palette (runtime variables, see above) */
+  --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --color-border: var(--border);
+  --color-accent: var(--accent);
+  --color-accent-hover: var(--accent-hover);
+  --color-success: var(--success);
+  --color-on-accent: var(--on-accent);
+
+  /* Elevation */
+  --shadow-card: var(--elevation-card);
+  --shadow-card-hover: var(--elevation-card-hover);
+}
+
+@theme {
+  /* Typography */
+  --font-heading: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+  --font-body: 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+
+  /* Border radius */
+  --radius-sm: 0.375rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1.25rem;
+  --radius-full: 9999px;
+}
+
+:root {
+  /* Layout */
+  --container-max: 72rem;
+  --container-narrow: 46rem;
+  --container-pad-mobile: 1.25rem;
+  --container-pad-tablet: 2rem;
+  --container-pad-desktop: 2.5rem;
+
+  /* Vertical rhythm */
+  --section-space-sm: clamp(3rem, 6vw, 5rem);
+  --section-space: clamp(5rem, 10vw, 8rem);
+  --section-space-lg: clamp(6rem, 12vw, 10rem);
+
+  /* Spacing scale */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-20: 5rem;
+  --space-24: 6rem;
+
+  /* Motion */
+  --ease-out-expo: cubic-bezier(0.22, 1, 0.36, 1);
+  --transition-fast: 0.16s ease;
+  --transition-base: 0.28s var(--ease-out-expo);
+  --transition-slow: 0.5s var(--ease-out-expo);
+  --duration-focus: 150ms;
+  --duration-reveal: 700ms;
+  --duration-page: 450ms;
+}
+
+/* ---------------------------------------------------------------------------
+   BASE
+--------------------------------------------------------------------------- */
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--background);
+    color: var(--primary);
+    font-family: var(--font-body);
+    font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-heading);
+    font-weight: 600;
+    line-height: 1.15;
+    letter-spacing: -0.01em;
+    color: var(--primary);
+  }
+
+  ::selection {
+    background-color: var(--accent);
+    color: var(--on-accent);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 3px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+/* ---------------------------------------------------------------------------
+   UTILITIES
+--------------------------------------------------------------------------- */
+
+@utility container-custom {
+  width: 100%;
+  max-width: var(--container-max);
+  margin-inline: auto;
+  padding-inline: clamp(var(--container-pad-mobile), 4vw, var(--container-pad-desktop));
+}
+
+@utility container-narrow {
+  width: 100%;
+  max-width: var(--container-narrow);
+  margin-inline: auto;
+  padding-inline: clamp(var(--container-pad-mobile), 4vw, var(--container-pad-desktop));
+}
+
+@utility section {
+  padding-block: var(--section-space);
+}
+
+@utility section-sm {
+  padding-block: var(--section-space-sm);
+}
+
+@utility section-lg {
+  padding-block: var(--section-space-lg);
+}
+
+@utility eyebrow {
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+@utility display {
+  font-family: var(--font-heading);
+  font-size: clamp(2.75rem, 8vw, 5.5rem);
+  font-weight: 500;
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+  color: var(--primary);
+}
+
+@utility hero-title {
+  font-family: var(--font-heading);
+  font-size: clamp(2.375rem, 6.5vw, 4rem);
+  font-weight: 500;
+  line-height: 1.02;
+  letter-spacing: -0.02em;
+  color: var(--primary);
+}
+
+@utility section-title {
+  font-family: var(--font-heading);
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 600;
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+  color: var(--primary);
+}
+
+@utility body-large {
+  font-family: var(--font-body);
+  font-size: 1.125rem;
+  line-height: 1.7;
+}
+
+@utility body-medium {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  line-height: 1.65;
+}
+
+@utility body-small {
+  font-family: var(--font-body);
+  font-size: 0.875rem;
+  line-height: 1.6;
+}
+
+/* ---------------------------------------------------------------------------
+   COMPONENT HELPERS
+--------------------------------------------------------------------------- */
+
+@layer components {
+  .nav-link {
+    position: relative;
+  }
+
+  .nav-link::after {
+    content: '';
+    position: absolute;
+    left: 0.75rem;
+    right: 0.75rem;
+    bottom: 0.25rem;
+    height: 1px;
+    background-color: var(--accent);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform var(--transition-base);
+  }
+
+  .nav-link:hover::after,
+  .nav-link.link-active::after {
+    transform: scaleX(1);
+  }
+
+  .skip-link {
+    position: absolute;
+    inset-block-start: 1rem;
+    inset-inline-start: 1rem;
+    z-index: 60;
+    transform: translateY(-200%);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-full);
+    background-color: var(--surface);
+    padding: 0.5rem 1.25rem;
+    font-family: var(--font-body);
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--accent);
+    transition: transform var(--transition-base);
+  }
+
+  .skip-link:focus-visible {
+    transform: translateY(0);
+  }
+
+  /* Icon hosts are inline-flex so transforms/colours animate smoothly. */
+  app-icon {
+    display: inline-flex;
+    flex-shrink: 0;
+  }
+
+  /* Faint accent wash behind empty media placeholders — theme-aware. */
+  .media-texture {
+    background-image: radial-gradient(
+      48rem circle at 35% 40%,
+      color-mix(in srgb, var(--accent) 7%, transparent),
+      transparent 62%
+    );
+  }
+
+  .fade-in {
+    animation: ts-fade-in 0.22s var(--ease-out-expo) both;
+  }
+
+  /* Hero availability status indicator — a quiet, non-badge dot.
+     The spread ring uses `color-mix` + `--accent` so it stays theme-aware
+     without a `.dark` override. The global reduced-motion rule freezes it
+     into a static dot. */
+  .hero-status {
+    position: relative;
+    border-radius: 9999px;
+    background-color: var(--accent);
+  }
+
+  .hero-status::after {
+    content: '';
+    position: absolute;
+    inset: -4px;
+    border-radius: 9999px;
+    animation: hero-status-ping 3.4s var(--ease-out-expo) infinite;
+  }
+
+  /* Hero plate — the editorial "system field". Reuses the atmosphere's
+     trajectory language (thin teal strokes + SMIL-moving points) so the
+     hero and the fixed background share one visual grammar. */
+  .hero-line {
+    fill: none;
+    stroke: var(--accent);
+    stroke-width: 1;
+    stroke-linecap: round;
+    opacity: 0.3;
+  }
+
+  .hero-hair {
+    stroke: var(--border);
+    stroke-width: 1;
+  }
+
+  .hero-node {
+    fill: var(--accent);
+    opacity: 0.75;
+  }
+
+  .hero-dot-accent {
+    fill: var(--accent);
+    opacity: 0.55;
+  }
+
+  .hero-dot-soft {
+    fill: var(--primary);
+    opacity: 0.3;
+  }
+}
+
+@layer utilities {
+  /* Active navigation accent — needs to live in the utilities layer so it
+     can override the Tailwind text-* color utilities the header uses. */
+  .nav-link.link-active,
+  .link-active {
+    color: var(--accent);
+  }
+}
+
+@keyframes ts-fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(-6px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes hero-status-ping {
+  0% {
+    box-shadow: 0 0 0 0 color-mix(in srgb, var(--accent) 32%, transparent);
+  }
+  35% {
+    box-shadow: 0 0 0 5px color-mix(in srgb, var(--accent) 0%, transparent);
+  }
+  100% {
+    box-shadow: 0 0 0 0 color-mix(in srgb, var(--accent) 0%, transparent);
+  }
+}
+
+/* ---------------------------------------------------------------------------
+   BACKGROUND ATMOSPHERE
+   Fixed, behind-content SVG layer. Pure markup + SMIL animation (no JS loop),
+   disabled for reduced motion and thinned out on small screens.
+--------------------------------------------------------------------------- */
+
+.atmo {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+}
+
+.atmo-svg {
+  width: 100%;
+  height: 100%;
+}
+
+.atmo-glow {
+  opacity: var(--atmo-glow-opacity);
+}
+
+.atmo-glow-stop {
+  stop-color: var(--atmo-glow);
+}
+
+.atmo-line {
+  fill: none;
+  stroke: var(--atmo-line);
+  stroke-width: 1;
+  stroke-linecap: round;
+  opacity: var(--atmo-line-opacity);
+}
+
+.atmo-dot {
+  opacity: 0;
+}
+
+.atmo-dot-accent {
+  fill: var(--atmo-dot);
+}
+
+.atmo-dot-soft {
+  fill: var(--atmo-dot-soft);
+  opacity: 0.55;
+}
+
+/* Thinner on small screens: keep one trajectory, hide the rest. */
+@media (max-width: 40rem) {
+  .atmo-c {
+    display: none;
+  }
+}
+
+/* Reduced motion: static lines only, no moving dots. */
+@media (prefers-reduced-motion: reduce) {
+  .atmo-dot,
+  .hero-dot-accent,
+  .hero-dot-soft {
+    display: none;
+  }
+}
