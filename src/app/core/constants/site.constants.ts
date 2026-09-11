@@ -12,7 +12,7 @@ export const SITE = {
   defaultDescription:
     'Computer engineering student and full-stack builder, creating products at the intersection of engineering, AI, and design.',
   /** Downloadable resume. Kept in `public/documents/` so it ships with the site. */
-  cv: '/documents/Mouad_Bourquouquou_CV.pdf',
+  cv: '/documents/Mouad_Bourquouquou_CVs.pdf',
   /** Site-wide fallback for Open Graph / Twitter social-sharing images. */
   defaultOgImage: '/images/seo/og-default.png',
   defaultOgImageAlt: 'Mouad Bourquouquou — Computer Engineering Student',
