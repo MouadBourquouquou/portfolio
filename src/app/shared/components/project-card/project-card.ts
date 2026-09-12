@@ -25,7 +25,7 @@ export type ProjectCardTagDisplay = 'pills' | 'list';
       >
         <a
           [routerLink]="detailRoute()"
-          class="relative block aspect-[16/10] overflow-hidden rounded-lg border border-border/70 bg-background transition-colors duration-300 group-hover:border-accent/30"
+          class="relative block aspect-[16/10] overflow-hidden rounded-xl border border-border/70 bg-background transition-colors duration-300 group-hover:border-accent/30"
         >
           @if (previewImage(); as image) {
             @if (!imageFailed()) {

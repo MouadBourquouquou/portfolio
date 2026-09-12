@@ -47,7 +47,7 @@ const PROFILE_PATH_3 = 'M-6 330 C 170 350, 330 300, 520 360';
         <!-- Editorial column -->
         <div class="lg:col-span-7">
           <p class="flex items-center gap-3" data-hero-reveal>
-            <span class="inline-block h-px w-10 bg-accent" aria-hidden="true"></span>
+            <span class="inline-block h-px w-6 bg-accent" aria-hidden="true"></span>
             <span class="hero-status inline-block size-1.5" aria-hidden="true"></span>
             <span class="eyebrow">{{ i18n.read('hero.eyebrow') }}</span>
           </p>
@@ -85,6 +85,11 @@ const PROFILE_PATH_3 = 'M-6 330 C 170 350, 330 300, 520 360';
             </app-button>
             <app-button size="lg" variant="secondary" route="/contact" class="w-full sm:w-auto">
               {{ i18n.read('hero.getInTouch') }}
+              <app-icon
+                name="mail"
+                [size]="17"
+                class="transition-transform duration-300 group-hover:translate-x-0.5"
+              />
             </app-button>
             <app-cv-download variant="hero" class="w-full sm:w-auto" />
           </div>

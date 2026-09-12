@@ -11,7 +11,11 @@ import { LanguageService } from '@core/services/language/language.service';
   selector: 'app-selected-work-section',
   imports: [RouterLink, SectionHeader, FeaturedProject, ProjectCard, AppIcon],
   template: `
-    <section id="work" class="section section-lg container-custom" aria-labelledby="work-heading">
+    <section
+      id="work"
+      class="section section-lg container-custom border-t border-border"
+      aria-labelledby="work-heading"
+    >
       <div class="flex flex-col gap-6 sm:flex-row sm:items-end sm:justify-between">
         <app-section-header
           size="lg"

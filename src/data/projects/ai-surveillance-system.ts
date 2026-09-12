@@ -5,9 +5,9 @@ export const AI_SURVEILLANCE_SYSTEM: Project = {
   next: 'syndic',
   title: 'AI Surveillance System',
   summary:
-    'Coordinated a four-person AI/computer-vision team, in collaboration with a startup, building a cafe-surveillance detection system from labeled data to working YOLO inference.',
+    'Worked across a four-person AI/computer-vision team, in collaboration with a startup, building a cafe-surveillance detection system from labeled data to working YOLO inference.',
   description:
-    'As AI/computer-vision lead on a team of four, and in collaboration with a startup, I helped build a computer-vision monitoring system for a cafe-surveillance use case. The project ran the full applied-AI path — acquiring and labeling data, training a detector with YOLO, and wiring inference into a real monitoring context — with the emphasis on moving from raw footage to working detections as a coherent team.',
+    'As the computer-vision developer on a team of four, and in collaboration with a startup, I helped build a computer-vision monitoring system for a cafe-surveillance use case. The project ran the full applied-AI path — acquiring and labeling data, training a detector with YOLO, and wiring inference into a real monitoring context — with the emphasis on moving from raw footage to working detections across a coherent four-person effort.',
   category: 'AI / Computer Vision',
   role: 'AI Project Coordinator',
   tags: ['Python', 'YOLO', 'Roboflow', 'Kaggle', 'Google Colab'],
@@ -37,16 +37,16 @@ export const AI_SURVEILLANCE_SYSTEM: Project = {
   ogImage: '/images/projects/ai-surveillance/og.png',
   ogImageAlt: 'AI Surveillance System — computer vision monitoring',
   problem:
-    'Real-world surveillance footage is noisy — lighting, angles, and occlusions vary constantly — and detection quality is ultimately capped by labeled data, not model choice. Working with a startup gave us a concrete cafe-monitoring use case to aim at. As a team of four we still had to organize annotation, training, and integration tightly enough that everyone could contribute without degrading the data.',
+    'Real-world surveillance footage is noisy — lighting, angles, and occlusions vary constantly — and detection quality is ultimately capped by labeled data, not model choice. Working with a startup gave us a concrete cafe-monitoring use case to aim at. As a team of four, we still had to keep annotation, training, and integration coordinated tightly enough that everyone could contribute without degrading the data.',
   problemPoints: [
     'Cafe-surveillance footage is noisy and varied, so environment handling drives real-world quality.',
     'Detection quality is capped by data quality — labeling discipline was the real engineering.',
     'A team of four needed one shared workflow for labeling, training, and sharing results.',
   ],
   contribution:
-    'I led the team and owned the AI/computer-vision side. I coordinated the four of us across data, training, and integration, decided the data pipeline, and drove detection from curated datasets to working YOLO inference against the startup’s cafe-surveillance use case.',
+    "I worked as the computer-vision developer and coordinated the team of four across data, training, and integration. I owned the data pipeline and drove detection from curated datasets to working YOLO inference against the startup's cafe-surveillance use case.",
   contributionPoints: [
-    'Led a team of four and coordinated data, training, and integration end to end.',
+    'Coordinated the four-person effort across data, training, and integration end to end.',
     'Collaborated with a startup around a real cafe-surveillance monitoring use case.',
     'Owned data curation and labeling through Roboflow; sourced public training data via Kaggle.',
     'Drove training and iteration on Google Colab.',
@@ -73,7 +73,7 @@ export const AI_SURVEILLANCE_SYSTEM: Project = {
     'Delivered a working detection pipeline for the startup collaboration: a YOLO detector trained on curated data, producing inference for the cafe-surveillance scenario. A functioning end-to-end team project — raw footage in, detections out.',
   learnings: [
     'Most of a vision project is data quality and labeling discipline; the model choice is the comparatively easy part.',
-    'Leading a small team came down to owning the shared contracts — the labels, exports, and versions everyone else built on.',
+    'Coordinating a four-person student project came down to owning the shared contracts — the labels, exports, and versions everyone else built on.',
     'Collaborating with a startup forced trade-offs between an interesting AI problem and a usable monitoring outcome.',
     'Notebook-driven training on Colab is fast, but explicit versioning of datasets and weights is what keeps a team aligned.',
   ],

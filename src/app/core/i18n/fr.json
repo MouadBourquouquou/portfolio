@@ -53,7 +53,7 @@
   "common": {
     "caseStudy": "Étude de cas",
     "featured": "Projet vedette",
-    "leadership": "Leadership",
+    "leadership": "Coordination",
     "month": "mois",
     "months": "mois",
     "present": "Présent",
@@ -137,9 +137,9 @@
     ]
   },
   "experience": {
-    "eyebrow": "Expérience & Leadership",
+    "eyebrow": "Expérience & Coordination",
     "title": "Là où j'ai prêté attention.",
-    "description": "Les postes professionnels utilisent un marqueur plein ; les rôles de leadership un marqueur vide. Les deux sont réels, les deux se valent.",
+    "description": "Les postes professionnels utilisent un marqueur plein ; la coordination de projet utilise un marqueur vide. Les deux sont de vraies expériences, les deux comptent.",
     "items": [
       {
         "role": "Développeur Full-Stack · Coordinateur d'équipe",
@@ -257,12 +257,12 @@
         "Les services touristiques locaux étaient répartis sur de nombreux canaux, sans point de découverte unique.",
         "Le produit devait justifier une couche IA sans en faire un gadget."
       ],
-      "contribution": "J'ai été lead plateforme de MarocSphere : je coordonnais l'équipe et définissais la direction technique, avec un travail concret sur le frontend Angular et le backend Spring Boot, ainsi que les tests et le déploiement.",
+      "contribution": "En tant que développeur full-stack sur MarocSphere, j'ai construit sur le frontend Angular et le backend Spring Boot, j'ai coordonné les tâches quotidiennes de l'équipe et j'ai participé aux tests et au déploiement.",
       "contributionPoints": [
-        "J'ai défini la direction technique : un frontend Angular, une API Spring Boot, une persistance PostgreSQL et une couche IA intégrée.",
-        "J'ai coordonné l'équipe autour d'un backlog partagé, de contrats d'API et d'un rythme de livraison.",
-        "J'ai contribué au développement et aux tests du backend, y compris l'intégration IA qui alimente la génération d'itinéraires.",
-        "J'ai géré le déploiement — packaging de la plateforme avec Docker et livraison via Cloudflare."
+        "Contribution à la définition de l'architecture : un frontend Angular, une API Spring Boot, une persistance PostgreSQL et une couche IA intégrée.",
+        "Coordination de l'équipe de quatre autour d'un backlog partagé et de contrats d'API convenus, pour garder l'intégration sur les rails.",
+        "Contribution au développement et aux tests du backend, dont l'intégration IA qui alimente la génération d'itinéraires.",
+        "Participation au déploiement — packaging de la plateforme avec Docker et livraison via Cloudflare."
       ],
       "decisions": [
         {
@@ -381,20 +381,20 @@
     },
     "ai-surveillance": {
       "title": "Système de surveillance IA",
-      "summary": "Coordination d'une équipe IA/vision par ordinateur de quatre personnes, en collaboration avec une startup, pour construire un système de détection de surveillance de café, des données labellisées jusqu'à l'inférence YOLO fonctionnelle.",
-      "description": "En tant que responsable vision par ordinateur/IA d'une équipe de quatre, et en collaboration avec une startup, j'ai contribué à construire un système de suivi par vision par ordinateur pour un cas d'usage de surveillance de café. Le projet a parcouru tout le chemin de l'IA appliquée — collecte et labellisation des données, entraînement d'un détecteur avec YOLO, et branchement de l'inférence dans un contexte de surveillance réel — en mettant l'accent sur la transition de séquences brutes à des détections fonctionnelles, en équipe cohérente.",
-      "role": "Coordinateur de projet IA · Ingénieur Vision par Ordinateur",
+      "summary": "Participation, au sein d'une équipe IA/vision par ordinateur de quatre personnes et en collaboration avec une startup, à la construction d'un système de détection de surveillance de café — des données labellisées jusqu'à l'inférence YOLO fonctionnelle.",
+      "description": "En tant que développeur vision par ordinateur sur une équipe de quatre, et en collaboration avec une startup, j'ai aidé à construire un système de suivi par vision par ordinateur pour un cas d'usage de surveillance de café. Le projet a parcouru tout le chemin de l'IA appliquée — collecte et labellisation des données, entraînement d'un détecteur avec YOLO, et branchement de l'inférence dans un contexte de surveillance réel — en mettant l'accent sur la transition de séquences brutes à des détections fonctionnelles, au sein d'un effort d'équipe cohérent.",
+      "role": "Coordinateur de projet IA",
       "problem": "Les séquences de surveillance réelles sont bruitées — éclairage, angles et occultations varient constamment — et la qualité de la détection est finalement plafonnée par les données labellisées, pas par le choix du modèle. Travailler avec une startup nous a donné un cas concret de surveillance de café à viser. En équipe de quatre, nous devions en plus organiser l'annotation, l'entraînement et l'intégration assez serrés pour que chacun puisse contribuer sans dégrader les données.",
       "problemPoints": [
         "Les séquences de surveillance de café sont bruitées et variées : la gestion de l'environnement gouverne la qualité réelle.",
         "La qualité de détection est plafonnée par la qualité des données — la discipline de labellisation était le véritable travail d'ingénierie.",
         "Une équipe de quatre avait besoin d'un workflow partagé pour labelliser, entraîner et partager les résultats."
       ],
-      "contribution": "J'ai dirigé l'équipe et possédé le volet IA/vision par ordinateur. J'ai coordonné les quatre membres autour des données, de l'entraînement et de l'intégration, décidé de la pipeline de données et conduit la détection des jeux de données curatés jusqu'à l'inférence YOLO fonctionnelle pour le cas d'usage de surveillance de café de la startup.",
+      "contribution": "J'ai travaillé comme développeur vision par ordinateur et j'ai coordonné l'équipe de quatre autour des données, de l'entraînement et de l'intégration. J'ai porté la pipeline de données et conduit la détection des jeux de données curatés jusqu'à l'inférence YOLO fonctionnelle pour le cas d'usage de surveillance de café de la startup.",
       "contributionPoints": [
-        "Direction d'une équipe de quatre et coordination des données, de l'entraînement et de l'intégration de bout en bout.",
+        "Coordination de l'effort de quatre autour des données, de l'entraînement et de l'intégration, de bout en bout.",
         "Collaboration avec une startup autour d'un cas réel de surveillance de café.",
-        "Pilotage de la curation et de la labellisation des données via Roboflow ; données publiques d'entraînement sourcées via Kaggle.",
+        "Curation et labellisation des données via Roboflow ; données publiques d'entraînement sourcées via Kaggle.",
         "Entraînement et itérations conduits sur Google Colab."
       ],
       "decisions": [
@@ -418,7 +418,7 @@
       "result": "Livraison d'une pipeline de détection fonctionnelle pour la collaboration avec la startup : un détecteur YOLO entraîné sur des données curatées, produisant de l'inférence pour le scénario de surveillance de café. Un projet d'équipe fonctionnel de bout en bout — séquences brutes en entrée, détections en sortie.",
       "learnings": [
         "Une grande partie d'un projet de vision tient à la qualité des données et à la discipline de labellisation ; le choix du modèle est la partie comparativement facile.",
-        "Diriger une petite équipe revenait à posséder les contrats partagés — les labels, les exports et les versions sur lesquels tout le monde s'appuyait.",
+        "Coordonner une petite équipe revenait à porter les contrats partagés — les labels, les exports et les versions sur lesquels tout le monde s'appuyait.",
         "La collaboration avec une startup forçait des arbitrages entre un problème IA intéressant et un résultat de surveillance utilisable.",
         "L'entraînement piloté par notebooks sur Colab est rapide, mais c'est le versionnage explicite des jeux de données et des poids qui garde une équipe alignée."
       ]

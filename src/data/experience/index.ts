@@ -7,7 +7,7 @@ export const EXPERIENCE: Experience[] = [
     organization: 'MarocSphere',
     period: { start: 'July 2026', months: 2 },
     summary:
-      'End-of-year internship (PFA) building an intelligent tourism platform that supports travelers end to end — from AI-assisted itinerary generation to discovering local artisans and services. Coordinated a four-person team while contributing across the frontend and backend, participated in database design and integration, and supported deployment and platform verification to ship a reliable, multi-service travel ecosystem.',
+      'End-of-year internship (PFA) building an intelligent tourism platform that supports travelers end to end — from AI-assisted itinerary generation to discovering local artisans and services. Coordinated a four-person student team while contributing across the frontend and backend, participated in database design and integration, and supported deployment and platform verification to ship a reliable, multi-service travel ecosystem.',
     tags: ['Angular', 'Spring Boot', 'PostgreSQL', 'Docker', 'Cloudflare', 'k6'],
   },
   {
@@ -25,7 +25,7 @@ export const EXPERIENCE: Experience[] = [
     organization: 'EMJE',
     period: { start: 'October 2025', months: 3 },
     summary:
-      'Coordinated a four-person team on a computer-vision project for a hospitality-sector client, guiding the workflow from dataset preparation and annotation through model training and evaluation to deployment — contributing to data cleaning, annotation, and deployment testing to deliver a deployable solution built around real operational monitoring and security requirements.',
+      'Coordinated a four-person team on a computer-vision project for a hospitality-sector client, working through the workflow from dataset preparation and annotation through model training and evaluation to deployment — contributing to data cleaning, annotation, and deployment testing to deliver a deployable solution built around real operational monitoring and security requirements.',
     tags: ['Python', 'YOLOv8', 'Roboflow', 'Google Colab', 'AWS'],
   },
   {

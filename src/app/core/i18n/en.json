@@ -53,7 +53,7 @@
   "common": {
     "caseStudy": "Case study",
     "featured": "Featured project",
-    "leadership": "Leadership",
+    "leadership": "Coordination",
     "month": "month",
     "months": "months",
     "present": "Present",
@@ -137,9 +137,9 @@
     ]
   },
   "experience": {
-    "eyebrow": "Experience & Leadership",
+    "eyebrow": "Experience & Coordination",
     "title": "Where I've paid attention.",
-    "description": "Professional work uses a solid marker; leadership roles use an outline. Both are real, both are equal.",
+    "description": "Professional work uses a solid marker; project coordination uses an outline. Both are real experiences, both count.",
     "items": []
   },
   "contact": {

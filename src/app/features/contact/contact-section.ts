@@ -37,7 +37,7 @@ import { AppIcon } from '@shared/ui/icon/icon';
           </app-button>
         </div>
 
-        <div class="flex flex-wrap items-center gap-x-7 gap-y-4">
+        <div class="flex flex-wrap items-center gap-x-8 gap-y-3">
           <app-cv-download variant="contact" />
           <a
             [href]="github"

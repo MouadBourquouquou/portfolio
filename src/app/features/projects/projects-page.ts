@@ -93,7 +93,7 @@ type ProjectFilter = string | null;
           </div>
           <a
             [routerLink]="['/contact']"
-            class="group inline-flex w-fit items-center gap-2 rounded-full bg-accent px-7 py-3 text-sm font-semibold text-on-accent transition-colors hover:bg-accent-hover"
+            class="group inline-flex w-fit items-center gap-2 rounded-full bg-accent px-6 py-3 text-sm font-medium text-on-accent transition-colors hover:bg-accent-hover"
           >
             {{ i18n.read('projectsPage.startConversation') }}
             <app-icon

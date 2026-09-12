@@ -2,7 +2,6 @@ import {
   Component,
   ElementRef,
   HostListener,
-  OnInit,
   computed,
   inject,
   input,
@@ -12,6 +11,7 @@ import {
 } from '@angular/core';
 import { LanguageService } from '@core/services/language/language.service';
 import { CvService } from '@core/services/cv/cv.service';
+import { SITE } from '@core/constants/site.constants';
 import { AppIcon } from '@shared/ui/icon/icon';
 import type { SupportedLanguage } from '@core/i18n';
 
@@ -21,7 +21,7 @@ interface CvOption {
   lang: SupportedLanguage;
   flag: string;
   labelKey: 'downloadCvEnglish' | 'downloadCvFrench';
-  available: () => boolean;
+  url: string;
 }
 
 const VARIANTS = {
@@ -48,28 +48,31 @@ const VARIANTS = {
   },
 } as const;
 
-const OPTIONS = [
+const OPTIONS: CvOption[] = [
   {
-    lang: 'en' as const,
+    lang: 'en',
     flag: '🇬🇧',
-    labelKey: 'downloadCvEnglish' as const,
+    labelKey: 'downloadCvEnglish',
+    url: SITE.cv.en,
   },
   {
-    lang: 'fr' as const,
+    lang: 'fr',
     flag: '🇫🇷',
-    labelKey: 'downloadCvFrench' as const,
+    labelKey: 'downloadCvFrench',
+    url: SITE.cv.fr,
   },
 ];
 
 /**
  * Download CV chooser.
  *
- * A single trigger that opens a small language menu (English/French CV).
- * Options are hidden when the corresponding file is missing on the server,
- * and the whole control disappears when neither CV is available. Follows the
- * WAI-ARIA menu-button pattern: Escape closes and returns focus, arrow
- * keys move between options, clicking outside or pressing Tab dismisses the
- * menu, and downloading runs through CvService as a same-origin blob save.
+ * A single trigger that opens a premium popover offering the English or
+ * French CV. Each option is a real same-origin `<a>` with a `download`
+ * attribute, so clicking downloads the PDF natively — no blob round-trip,
+ * works on every device and survives SSR/hydration untouched. The control
+ * is only hidden when no CV path is configured. Follows the WAI-ARIA
+ * menu-button pattern: Escape closes and returns focus, arrow keys move
+ * between options, and clicking outside or pressing Tab dismisses the menu.
  */
 @Component({
   selector: 'app-cv-download',
@@ -102,23 +105,42 @@ const OPTIONS = [
           role="menu"
           [attr.aria-label]="triggerLabel()"
           [class]="
-            'absolute left-0 z-10 flex min-w-44 flex-col gap-0.5 rounded-md border border-border bg-surface p-1 shadow-card fade-in ' +
+            'cv-popover absolute left-0 z-20 flex w-56 flex-col gap-1 rounded-2xl border border-border bg-surface p-2 shadow-card ' +
             menuPosition()
           "
           (keydown)="onMenuKeydown($event)"
         >
           @for (option of options; track option.lang) {
-            @if (option.available()) {
-              <button
+            @if (option.url) {
+              <a
                 #menuItem
-                type="button"
                 role="menuitem"
-                class="flex w-full items-center gap-2.5 whitespace-nowrap rounded-sm px-3 py-2 text-left text-sm font-medium text-primary transition-colors hover:bg-background hover:text-accent focus-visible:bg-background focus-visible:text-accent"
-                (click)="select(option.lang)"
+                tabindex="-1"
+                [href]="option.url"
+                [download]="cvFileName(option.lang)"
+                (click)="open.set(false)"
+                class="group/item flex w-full items-center gap-3 rounded-xl px-3 py-3 transition-colors hover:bg-background focus-visible:bg-background"
               >
-                <span class="text-base leading-none" aria-hidden="true">{{ option.flag }}</span>
-                {{ i18n.read(option.labelKey) }}
-              </button>
+                <span
+                  class="flex size-10 shrink-0 items-center justify-center rounded-xl border border-border/80 bg-background text-lg leading-none"
+                  aria-hidden="true"
+                >
+                  {{ option.flag }}
+                </span>
+                <span class="flex min-w-0 flex-1 flex-col items-start gap-0.5">
+                  <span
+                    class="truncate text-sm font-semibold text-primary transition-colors group-hover/item:text-accent"
+                  >
+                    {{ i18n.read(option.labelKey) }}
+                  </span>
+                  <span class="text-xs text-secondary">PDF</span>
+                </span>
+                <app-icon
+                  name="download"
+                  [size]="15"
+                  class="shrink-0 text-secondary transition-colors group-hover/item:text-accent"
+                />
+              </a>
             }
           }
         </div>
@@ -126,7 +148,7 @@ const OPTIONS = [
     }
   `,
 })
-export class CvDownload implements OnInit {
+export class CvDownload {
   private readonly cv = inject(CvService);
   private readonly hostRef = inject<ElementRef<HTMLElement>>(ElementRef);
   protected readonly i18n = inject(LanguageService);
@@ -134,18 +156,12 @@ export class CvDownload implements OnInit {
   readonly variant = input<CvDownloadVariant>('hero');
 
   protected readonly open = signal(false);
-  protected readonly visible = computed(() => this.cv.availableEn() || this.cv.availableFr());
+  protected readonly visible = computed(() => this.cv.enabled.en || this.cv.enabled.fr);
 
   private readonly triggerRef = viewChild.required<ElementRef<HTMLButtonElement>>('trigger');
-  protected readonly menuItems = viewChildren<ElementRef<HTMLButtonElement>>('menuItem');
+  protected readonly menuItems = viewChildren<ElementRef<HTMLAnchorElement>>('menuItem');
 
-  protected readonly options: CvOption[] = OPTIONS.map((option) => ({
-    ...option,
-    available:
-      option.lang === 'en'
-        ? () => this.cv.availableEn()
-        : () => this.cv.availableFr(),
-  }));
+  protected readonly options = OPTIONS;
 
   protected readonly triggerClasses = computed(() => VARIANTS[this.variant()].trigger);
   protected readonly menuPosition = computed(() => VARIANTS[this.variant()].menu);
@@ -153,8 +169,8 @@ export class CvDownload implements OnInit {
   protected readonly chevronSize = computed(() => VARIANTS[this.variant()].chevronSize);
   protected readonly triggerLabel = computed(() => this.i18n.read('common.downloadCv'));
 
-  ngOnInit(): void {
-    this.cv.check();
+  protected cvFileName(lang: SupportedLanguage): string {
+    return this.cv.cvFileName(lang);
   }
 
   protected toggle(): void {
@@ -169,11 +185,6 @@ export class CvDownload implements OnInit {
   protected close(): void {
     this.open.set(false);
     this.triggerRef().nativeElement.focus();
-  }
-
-  protected select(lang: SupportedLanguage): void {
-    this.close();
-    void this.cv.download(lang);
   }
 
   protected onTriggerKeydown(event: KeyboardEvent): void {

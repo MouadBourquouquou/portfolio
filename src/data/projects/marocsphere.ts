@@ -46,10 +46,10 @@ export const MAROCSPHERE: Project = {
     'The product needed to justify an AI layer without turning it into a gimmick.',
   ],
   contribution:
-    'I was the platform lead for MarocSphere: I coordinated the team and defined the technical direction, with hands-on work across the Angular frontend and the Spring Boot backend, plus testing and deployment.',
+    "As a full-stack developer on MarocSphere, I built across the Angular frontend and the Spring Boot backend, coordinated the team's day-to-day tasks, and supported testing and deployment.",
   contributionPoints: [
-    'Defined the technical direction: an Angular frontend, a Spring Boot API, PostgreSQL persistence, and an integrated AI layer.',
-    'Coordinated the team around a shared backlog, API contracts, and release cadence.',
+    'Contributed to shaping the architecture: an Angular frontend, a Spring Boot API, PostgreSQL persistence, and an integrated AI layer.',
+    'Coordinated the four-person team around a shared backlog and agreed API contracts, keeping integration on track.',
     'Contributed the backend build and testing, including the AI integration that powers itinerary generation.',
     'Handled deployment — packaging the platform with Docker and delivering it through Cloudflare.',
   ],

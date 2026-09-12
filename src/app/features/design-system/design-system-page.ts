@@ -159,7 +159,7 @@ interface SpacingEntry {
           </div>
           <div>
             <p class="text-xs uppercase tracking-widest text-secondary">eyebrow</p>
-            <p class="eyebrow">Senior Software Engineer</p>
+            <p class="eyebrow">Computer Engineering Student</p>
           </div>
           <div>
             <p class="text-xs uppercase tracking-widest text-secondary">body-large</p>

@@ -42,7 +42,7 @@ export interface Project {
   /** Technologies involved. */
   tags?: string[];
 
-  /** Portfolio role on the project (e.g. "Platform Lead · Full-Stack"). */
+  /** Portfolio role on the project (e.g. "Full-Stack Developer"). */
   role?: string;
 
   /** Editorial category used for archive filtering. */
