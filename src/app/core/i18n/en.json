@@ -60,7 +60,9 @@
     "videoPreview": "video preview",
     "projectImage": "Project image",
     "projectVideo": "Project video",
-    "downloadCv": "Download CV"
+    "downloadCv": "Download CV",
+    "downloadCvEnglish": "English CV",
+    "downloadCvFrench": "French CV"
   },
   "hero": {
     "eyebrow": "Open to PFE opportunities",

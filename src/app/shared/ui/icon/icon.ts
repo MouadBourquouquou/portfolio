@@ -5,6 +5,7 @@ export type AppIconName =
   | 'arrow-right'
   | 'arrow-up-right'
   | 'calendar'
+  | 'chevron-down'
   | 'clock'
   | 'code'
   | 'download'
@@ -71,6 +72,9 @@ export type AppIconName =
         @case ('arrow-up-right') {
           <path d="M7 7h10v10" />
           <path d="M7 17 17 7" />
+        }
+        @case ('chevron-down') {
+          <path d="m6 9 6 6 6-6" />
         }
         @case ('download') {
           <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />

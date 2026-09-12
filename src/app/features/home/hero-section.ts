@@ -1,10 +1,10 @@
 import { AfterViewInit, Component, ElementRef, PLATFORM_ID, inject, signal } from '@angular/core';
 import { isPlatformBrowser } from '@angular/common';
 import { Button } from '@shared/ui/button/button';
+import { CvDownload } from '@shared/ui/cv-download/cv-download';
 import { AnimationService } from '@core/services/animation/animation.service';
 import { LanguageService } from '@core/services/language/language.service';
 import { SITE } from '@core/constants/site.constants';
-import { CvService } from '@core/services/cv/cv.service';
 import { AppIcon } from '@shared/ui/icon/icon';
 import { Tag } from '@shared/ui/tag/tag';
 import { PROJECTS } from '@data/projects';
@@ -37,7 +37,7 @@ const PROFILE_PATH_3 = 'M-6 330 C 170 350, 330 300, 520 360';
 
 @Component({
   selector: 'app-hero-section',
-  imports: [Button, AppIcon, Tag],
+  imports: [Button, CvDownload, AppIcon, Tag],
   template: `
     <section
       class="section container-custom pt-[clamp(4rem,10vw,7.5rem)]"
@@ -86,21 +86,7 @@ const PROFILE_PATH_3 = 'M-6 330 C 170 350, 330 300, 520 360';
             <app-button size="lg" variant="secondary" route="/contact" class="w-full sm:w-auto">
               {{ i18n.read('hero.getInTouch') }}
             </app-button>
-            @if (cvAvailable()) {
-              <app-button
-                size="lg"
-                variant="secondary"
-                [href]="cvUrl"
-                [download]="cvFileName"
-                [external]="false"
-                [ariaLabel]="i18n.read('common.downloadCv')"
-                (click)="onDownloadCv($event)"
-                class="w-full sm:w-auto"
-              >
-                {{ i18n.read('common.downloadCv') }}
-                <app-icon name="download" [size]="17" />
-              </app-button>
-            }
+            <app-cv-download variant="hero" class="w-full sm:w-auto" />
           </div>
 
           <div class="mt-9 flex flex-wrap items-center gap-x-8 gap-y-3" data-hero-reveal>
@@ -349,7 +335,6 @@ export class HeroSection implements AfterViewInit {
   private readonly elementRef = inject(ElementRef);
   private readonly platformId = inject(PLATFORM_ID);
   private readonly animation = inject(AnimationService);
-  private readonly cvService = inject(CvService);
 
   protected readonly i18n = inject(LanguageService);
   protected readonly stats = HERO_STATS;
@@ -369,17 +354,7 @@ export class HeroSection implements AfterViewInit {
   protected readonly focus = PROFILE.focus;
   protected readonly photoFailed = signal(false);
 
-  protected readonly cvAvailable = this.cvService.available;
-  protected readonly cvUrl = this.cvService.cvUrl;
-  protected readonly cvFileName = this.cvService.cvFileName;
-
-  protected onDownloadCv(event: Event): void {
-    event.preventDefault();
-    this.cvService.download();
-  }
-
   async ngAfterViewInit(): Promise<void> {
-    this.cvService.check();
     if (!isPlatformBrowser(this.platformId)) {
       return;
     }

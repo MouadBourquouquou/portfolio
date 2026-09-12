@@ -1,13 +1,13 @@
-import { Component, inject, OnInit } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { Button } from '@shared/ui/button/button';
+import { CvDownload } from '@shared/ui/cv-download/cv-download';
 import { LanguageService } from '@core/services/language/language.service';
-import { CvService } from '@core/services/cv/cv.service';
 import { SITE } from '@core/constants/site.constants';
 import { AppIcon } from '@shared/ui/icon/icon';
 
 @Component({
   selector: 'app-contact-section',
-  imports: [Button, AppIcon],
+  imports: [Button, CvDownload, AppIcon],
   template: `
     <section class="section section-lg" aria-labelledby="contact-heading">
       <div class="container-custom flex flex-col items-start gap-8 border-t border-border pt-16">
@@ -38,17 +38,7 @@ import { AppIcon } from '@shared/ui/icon/icon';
         </div>
 
         <div class="flex flex-wrap items-center gap-x-7 gap-y-4">
-          @if (cvAvailable()) {
-            <a
-              [href]="cvUrl"
-              [attr.download]="cvFileName"
-              [attr.aria-label]="i18n.read('common.downloadCv')"
-              class="group inline-flex items-center gap-2 text-sm font-medium text-secondary transition-colors hover:text-accent"
-            >
-              <app-icon name="download" [size]="17" />
-              {{ i18n.read('common.downloadCv') }}
-            </a>
-          }
+          <app-cv-download variant="contact" />
           <a
             [href]="github"
             target="_blank"
@@ -82,20 +72,10 @@ import { AppIcon } from '@shared/ui/icon/icon';
     </section>
   `,
 })
-export class ContactSection implements OnInit {
-  private readonly cvService = inject(CvService);
-
+export class ContactSection {
   protected readonly i18n = inject(LanguageService);
 
   protected readonly email = SITE.email;
   protected readonly github = SITE.socials.github;
   protected readonly linkedin = SITE.socials.linkedin;
-
-  protected readonly cvAvailable = this.cvService.available;
-  protected readonly cvUrl = this.cvService.cvUrl;
-  protected readonly cvFileName = this.cvService.cvFileName;
-
-  ngOnInit(): void {
-    this.cvService.check();
-  }
 }

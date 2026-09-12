@@ -1,12 +1,11 @@
-import { Component, inject, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { SITE } from '@core/constants/site.constants';
-import { CvService } from '@core/services/cv/cv.service';
-import { LanguageService } from '@core/services/language/language.service';
 import { AppIcon } from '@shared/ui/icon/icon';
+import { CvDownload } from '@shared/ui/cv-download/cv-download';
 
 @Component({
   selector: 'app-site-footer',
-  imports: [AppIcon],
+  imports: [AppIcon, CvDownload],
   template: `
     <footer class="border-t border-border">
       <div
@@ -14,17 +13,7 @@ import { AppIcon } from '@shared/ui/icon/icon';
       >
         <p class="text-sm text-secondary">© {{ year }} {{ siteName }}</p>
         <div class="flex items-center gap-6 text-xs text-secondary">
-          @if (cvAvailable()) {
-            <a
-              [href]="cvUrl"
-              [attr.download]="cvFileName"
-              [attr.aria-label]="i18n.read('common.downloadCv')"
-              class="group inline-flex items-center gap-2 transition-colors hover:text-accent"
-            >
-              <app-icon name="download" [size]="16" />
-              {{ i18n.read('common.downloadCv') }}
-            </a>
-          }
+          <app-cv-download variant="footer" />
           <a
             [href]="github"
             target="_blank"
@@ -58,20 +47,9 @@ import { AppIcon } from '@shared/ui/icon/icon';
     </footer>
   `,
 })
-export class SiteFooter implements OnInit {
-  private readonly cvService = inject(CvService);
-
-  protected readonly i18n = inject(LanguageService);
+export class SiteFooter {
   protected readonly siteName = SITE.name;
   protected readonly github = SITE.socials.github;
   protected readonly linkedin = SITE.socials.linkedin;
   protected readonly year = new Date().getFullYear();
-
-  protected readonly cvAvailable = this.cvService.available;
-  protected readonly cvUrl = this.cvService.cvUrl;
-  protected readonly cvFileName = this.cvService.cvFileName;
-
-  ngOnInit(): void {
-    this.cvService.check();
-  }
 }

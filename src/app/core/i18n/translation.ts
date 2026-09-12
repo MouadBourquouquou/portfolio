@@ -99,6 +99,8 @@ export interface Translation {
     projectImage: string;
     projectVideo: string;
     downloadCv: string;
+    downloadCvEnglish: string;
+    downloadCvFrench: string;
   };
   hero: {
     eyebrow: string;
