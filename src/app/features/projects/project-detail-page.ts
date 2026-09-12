@@ -246,14 +246,6 @@ import { NextProject } from './next-project-link';
             </app-case-study-section>
           }
 
-          <app-case-study-section
-            index="07"
-            [kicker]="i18n.read('caseStudy.media')"
-            [title]="i18n.read('caseStudy.screensAndVideo')"
-          >
-            <app-media-gallery [items]="galleryItems()" />
-          </app-case-study-section>
-
           @if (relatedArticles().length) {
             <app-case-study-section
               index="08"
